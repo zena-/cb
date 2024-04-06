@@ -48,7 +48,7 @@ export default function Magnesium() {
         </div>
       </section>
 
-      <section className="section" id="orange">
+      <section className="section" id="cranberry">
         <h2 className="cartier center">Cranberry & Rose Hips</h2>
         <div className="flex row img-left section">
           <Image src={tworose} alt="Chili B." width={420} />
@@ -103,7 +103,7 @@ export default function Magnesium() {
         </div>
       </section>
 
-      <section className="section" id="lime">
+      <section className="section" id="pineapple">
         <h2 className="cartier center">Pineapple & Ginger</h2>
         <div className="flex row img-left section">
           <Image src={twopin} alt="Chili B." width={420} />
@@ -158,7 +158,7 @@ export default function Magnesium() {
         </div>
       </section>
 
-      <section className="section" id="hibiscus">
+      <section className="section" id="apple">
         <h2 className="cartier center">Apple & Guava</h2>
         <div className="flex row img-left section">
           <Image src={twoapples} alt="Chili B." width={420} />
@@ -236,7 +236,7 @@ export default function Magnesium() {
           </div>
         </div>
 
-        <div className="flex row white-copy">
+        <div className="flex row white-copy lastblock-nav">
           <div>
             <p>© 2024 ALL RIGHTS RESERVED.</p>
           </div>

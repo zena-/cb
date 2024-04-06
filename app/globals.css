@@ -442,9 +442,9 @@ p, li {
   font-size: 70px;
   line-height: 70px;
 }
-.discover li {
-  font-size: 17px;
-  line-height: 20px;
+.discover .section li {
+  font-size: 12px;
+  line-height: 17px;
   margin-bottom: 5px;
 }
 .discover p.title {
@@ -601,6 +601,7 @@ p, li {
   .displayTitle {
     white-space: wrap;
     margin-left: 0;
+    width: 90%;
   }
 
   .why .flex.inner {
@@ -670,7 +671,11 @@ p, li {
   .discover .hero-inner h1 {
     font-size: 54px;
   }
-  .discover .hero p {font-size: 30px;}
+  .discover .hero p {
+    font-size: 25px;
+    line-height: 28px;
+    padding: 10px 0;
+  }
   .hero nav {margin-top: 15px;}
   .discover .hero .logo-div {margin-top: 130px;}
   .discover ul.dropdown li {
@@ -686,4 +691,24 @@ p, li {
     width: 100%;
     margin: 12px 0;
   }
+  .hero nav .drop .show.dropdown {
+    z-index: 2; 
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 1rem;
+  }
+  .hero nav .drop .show.dropdown li {background-color: #fff; font-size: 22px;}
+
+  .info .hero-inner h1, .mag .hero-inner h1, .ash .hero-inner h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 100px;
+  }
+  .flex.row .flex.mail img {
+    width: 25px;
+    margin: 0;
+  }
+  .lastblock-nav, .about a {text-align: center;}
+  .about .section {padding: 0;}
+  .about .instablock {margin: 7rem 0;}
 }

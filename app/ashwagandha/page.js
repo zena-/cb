@@ -238,7 +238,7 @@ export default function Ashwagandha() {
           </div>
         </div>
 
-        <div className="flex row white-copy">
+        <div className="flex row white-copy lastblock-nav">
           <div>
             <p>© 2024 ALL RIGHTS RESERVED.</p>
           </div>

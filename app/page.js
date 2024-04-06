@@ -72,29 +72,29 @@ export default function Home() {
           </div>
           <div className={isAsh ? 'active ash flex ops' : 'ops'}>
             <div className="">
-              <Image src={orange} alt="Chili B." width={130} />
+              <Link href="/ashwagandha#orange"><Image src={orange} alt="Chili B." width={130} /></Link>
               <p className="orange ingredients med-text ">Carbonated water, blood orange juice, ashwagandha</p>
             </div>
             <div className="">
-              <Image src={green} alt="Chili B." width={130} />
+              <Link href="/ashwagandha#lime"><Image src={green} alt="Chili B." width={130} /></Link>
               <p className="green ingredients med-text ">Carbonated water, lime juice, mint, lemon balm, ashwagandha</p>
             </div>
             <div className="">
-              <Image src={purple} alt="Chili B." width={130} />
+              <Link href="/ashwagandha#hibiscus"><Image src={purple} alt="Chili B." width={130} /></Link>
               <p className="purple ingredients med-text ">Carbonated water, hibiscus tea, ashwagandha</p>
             </div>
           </div>
           <div className={isAsh ? 'ops' : 'active mag flex ops'}>
             <div className="">
-              <Image src={pink} alt="Chili B." width={130} />
+              <Link href="/magnesium#apple"><Image src={pink} alt="Chili B." width={130} /></Link>
               <p className="pink ingredients med-text">Carbonated water, apple juice, guava puree, magnesium</p>
             </div>
             <div className="">
-              <Image src={red} alt="Chili B." width={130} />
+              <Link href="/magnesium#cranberry"><Image src={red} alt="Chili B." width={130} /></Link>
               <p className="red ingredients med-text">Carbonated water, cranberry juice, rose hips, magnesium</p>
             </div>
             <div className="">
-              <Image src={yellow} alt="Chili B." width={130} />
+              <Link href="/magnesium#pineapple"><Image src={yellow} alt="Chili B." width={130} /></Link>
               <p className="yellow ingredients med-text">Carbonated water, pineapple juice, ginger, lemon balm, magnesium</p>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex row white-copy">
+        <div className="flex row white-copy lastblock-nav">
           <div>
             <p>© 2024 ALL RIGHTS RESERVED.</p>
           </div>
