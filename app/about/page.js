@@ -44,7 +44,7 @@ export default function About() {
 
       <section className="flex row about-intro section">
       	<div className="copy-block">
-          <p className="med-text">At Chili&nbsp;B, we're dedicated to elevating your everyday life. With a passion for wellness and a commitment to quality, we invite you to indulge in a journey of good taste and peace, where every sip nourishes the body and relaxes the mind.</p>
+          <p className="med-text">At Chili&nbsp;B, we&apos;re dedicated to elevating your everyday life. With a passion for wellness and a commitment to quality, we invite you to indulge in a journey of good taste and peace, where every sip nourishes the body and relaxes the mind.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
         <Image src={aboutSix} alt="Chili B." width={420} />
@@ -57,7 +57,7 @@ export default function About() {
       </section>
 
       <section className="about-outro section">
-        <p className="center med-text">Chili&nbsp;Beverage was created with you in mind. We recognize the demands of the modern workweek, and we're dedicated to lifting you up & helping you relax. Let us be your companion in good time or stress. We’re offering you a refreshing respite to help you power through.</p>
+        <p className="center med-text">Chili&nbsp;Beverage was created with you in mind. We recognize the demands of the modern workweek, and we&apos;re dedicated to lifting you up & helping you relax. Let us be your companion in good time or stress. We&apos;re offering you a refreshing respite to help you power through.</p>
       </section>
 
       <footer className="footer">

@@ -58,7 +58,7 @@ export default function Home() {
         <Image src={mocktail} alt="Chili B." width={800} />
         <div className="copy-block">
           <h2 className="uppercase green displayTitle">Elevate your daily&nbsp;routine</h2>
-          <p className="">Discover a new way to nourish your body and mind with our functional beverage crafted from real fruit juice and a blend of nature's finest ingredients. We're offering you a soothing antidote to the stresses of modern&nbsp;life.</p>
+          <p className="">Discover a new way to nourish your body and mind with our functional beverage crafted from real fruit juice and a blend of nature&apos;s finest ingredients. We&apos;re offering you a soothing antidote to the stresses of modern&nbsp;life.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function Home() {
         <Image src={action} alt="Chili B." width={700} />
         <div className="copy-block">
           <h2 className="uppercase red">Harmony in&nbsp;Action</h2>
-          <p className="">It’s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but also contributes to your health.</p>
+          <p className="">It&apos;s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but also contributes to your health.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
       </section>
