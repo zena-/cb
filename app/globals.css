@@ -1,0 +1,689 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}*/
+
+/*body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}*/
+
+/*@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}*/
+
+@font-face {
+  font-family: 'cartier';
+  src: url("../public/Cartier.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'goth';
+  src: url("../public/gothampro.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'gothBlack';
+  src: url("../public/gothampro_black.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'gothBold';
+  src: url("../public/gothampro_bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'gothLight';
+  src: url("../public/gothampro_light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'gothMed';
+  src: url("../public/gothampro_medium.ttf") format('truetype');
+}
+
+.orange {color: #DC7700;}
+.green {color: #10A75A;}
+.purple {color: #BF7CCB;}
+.red,
+.action .copy-block a:hover {color: #C9051C;}
+.yellow {color: #E4B200;}
+.pink {color: #F16D9F;}
+.black {color: #000000;}
+.uppercase {text-transform: uppercase;}
+.cap {text-transform: capitalize;}
+.uppercase {text-transform: uppercase;}
+.med-text {font-family: 'gothMed';}
+.bold {font-family: 'gothBold';}
+.cartier {font-family: 'cartier';}
+
+main {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero-home,
+.hero-white {
+  width: 100%;
+  background-color: #161616;
+  color: #fff;
+}
+
+.hero-home {
+  background: url("../public/hero3.png") no-repeat center center;
+  background-size: cover;
+}
+.hero-about {
+  background: url("../public/hero-about.png") no-repeat center center;
+  background-size: cover;
+}
+.hero-info {
+  background: url("../public/hero-info.png") no-repeat center center;
+  background-size: cover;
+}
+.hero-mag {
+  background: url("../public/hero-mag.png") no-repeat top center;
+  background-size: cover;
+}
+.hero-ash {
+  background: url("../public/hero-ash.png") no-repeat top center;
+  background-size: cover;
+}
+
+.hero-inner {
+  width: 100%;
+  height: 100vh;
+/*  background: #000;*/
+/*  rgba(0, 0, 0, 0.1);*/
+  padding: 30px;
+  margin-top: -30px;
+}
+
+.hero-inner h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hero .logo-div,
+.hero-logo-white {filter: invert(100%);}
+
+.linkOne {
+  gap: 20px;
+}
+
+.hero nav .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+  margin-left: 4rem;
+  margin-top: 10px;
+}
+.hero nav .drop {cursor: pointer;}
+.hero nav .drop .show.dropdown {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.hero nav .dropdown li {
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.hero nav {
+  justify-content: space-evenly;
+  font-family: 'gothMed';
+  text-transform: uppercase;
+  color: #000000;
+}
+
+nav.white-text {
+  justify-content: space-evenly;
+  font-family: 'gothMed';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.info .hero .logo-div {filter: invert(0%);}
+
+.hero nav div {
+  width: 33%;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  padding: 30px 20px;
+}
+
+.display {
+  padding: 50px 0;
+  width: 100vw;
+}
+
+.display .title {
+  justify-content: center;
+  gap: 45px;
+  margin-bottom: 40px;
+}
+
+.flavor .title img {
+  height: 55px;
+}
+
+.display .cans {
+  justify-content: center;
+  gap: 25px;
+}
+
+.displayTitle {
+  white-space: nowrap;
+  margin-left: -16rem;
+}
+
+.title {
+  font-family: 'goth';
+  font-size: 50px;
+}
+
+.footer {
+  background-color: #020202;
+  margin-top: 30px;
+  padding: 20px 20px 0;
+}
+.footer .flex {
+  width: 100%;
+  justify-content: space-between;
+}
+.footer .tag {
+  width: 32%;
+  height: 18px;
+  align-self: center;
+}
+.footer p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.footer .border {
+  border-right: none;
+  border-left: none;
+  padding: 15px 0;
+  margin-top: 7px;
+}
+.flex.mail{gap: 7px; margin-right: 15px;}
+.footer-nav {gap: 17px;}
+.flex.mail img{ margin: auto;}
+.footer .flex.row {width: auto;}
+.footer .flex.row a {align-items: center;}
+
+.white-copy {
+  color: #F0EFEB;
+}
+
+.copy-block {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.copy-block h2, .flavor h2, .why h2.title, .pour h2,
+.instablock h1 {
+  font-family: 'gothBold';
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+p, li {
+  font-family: 'gothLight';
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.copy-block a {
+  text-decoration: underline;
+}
+
+/*.pour h2, */
+.display .copy-block a:hover {
+  color: #DC7700;
+}
+
+.pour {
+  background: url("../public/background-pour.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.pour h1 {
+  width: 50%;
+  font-weight: 700;
+  font-family: 'gothBold';
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 100px;
+  align-self: center;
+  margin-bottom: 0;
+  padding: 50px;
+}
+
+.pour img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.flavor .title {
+  justify-content: center;
+  gap: 30px;
+  align-items: baseline;
+}
+.flavor {padding: 150px 5px;}
+.flavor-option  h2 {
+  font-family: 'gothMed';
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+.flavor .mid {
+  height: 50rem;
+}
+
+.flavor-option {
+  width: 70%;
+  justify-content: space-evenly;
+  margin: 90px auto auto;
+}
+
+
+.flavor-option div {
+  width: 40%;
+/*  border-bottom: 1px solid #F0EFEB;*/
+  border-bottom: 1px solid #000;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+
+.flavor-option div.active {
+  color: #D94E6D;
+  border-bottom: 1px solid #D94E6D;
+}
+
+.ops.active {
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+}
+
+.ops:not(.active) {
+  display: none;
+}
+.ops img {margin: auto;}
+.ops p {display: none;}
+.ops div {width: 32%;}
+.ops div:hover p {
+  display: block;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 20px auto;
+  text-transform: capitalize;
+  font-family: 'goth';
+}
+
+.why {
+  padding: 100px 0;
+}
+.why .flex.wrap {
+  justify-content: center;
+  gap: 30px;
+}
+.why .flex.inner {
+  flex-direction: column;
+  width: 30%;
+}
+.why .flex.inner p {
+  font-size: 20px;
+  line-height: 25px;
+}
+.why .flex.inner img {
+  height: 200px;
+}
+.why .orange {
+  font-family: 'gothBlack';
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 45px;
+  margin: 10px 0;
+}
+.why h2.title {text-align: center;}
+
+.action .copy-block {
+  width: 50%;
+}
+
+.footer {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+/*about*/
+.about-intro img {
+/*  align-self: center;*/
+  margin: auto;
+}
+.about-intro .med-text {
+  font-size: 43px;
+  line-height: 53px;
+}
+.instablock h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.about-outro {
+  width: 60%;
+  margin: 100px auto 50px;
+}
+.hero-about h1 {
+  font-family: 'gothBold';
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 11rem;
+  text-transform: uppercase;
+}
+.info h2 {margin-bottom: 10px;}
+.info p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.info .flex.row img,
+.discover .flex.row img{
+  width: 50%;
+  object-fit: contain;
+}
+
+.discover .cartier {
+  font-size: 70px;
+  line-height: 70px;
+}
+.discover li {
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.discover p.title {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.discover ul li {list-style: inside;}
+.discover ol li {
+  list-style: auto;
+  margin-left: 18px;
+  padding-left: 7px;
+}
+.discover section.section:not(.hero) {margin-top: 40px;}
+.discover ul.dropdown li {list-style: none;}
+
+.hide-lg {display: none;}
+.hide-md {display: block;}
+.see-text { background: rgba(36,36,36,0.4);}
+
+@media (min-width: 1988px) {
+  .why .flex.inner img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+  }
+  .action img, .display img {width: 50%;}
+  .copy-block h2, .flavor h2, .why h2.title, .pour h2, .instablock h1 {
+    font-size: 82px;
+    line-height: 95px;
+  }
+  .action p, .display p {
+    font-size: 74px;
+    line-height: 83px;
+  }
+  .hero-inner h1, .pour h1 {font-size: 121px;}
+  .copy-block a, .why .orange {font-size: 50px;}
+  .why .flex.inner p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .ops img {width: 50%;}
+  .flavor .mid {
+    height: 94rem;
+  }
+  .hero-about h1, .discover .cartier {line-height: 112px;}
+  .about-intro .med-text, .about-outro p {
+    font-size: 69px;
+    line-height: 77px;
+  }
+  .about-intro img {width: 40%;}
+  .info p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .info .section {
+    padding: 50px 20px;
+  }
+  .discover li {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .discover p.title {
+    margin: 29px 0;
+    font-size: 42px;
+  }
+}
+@media (max-width: 1030px) {
+  .action,
+  .flex.row,
+  .img-left {
+    flex-direction: column;
+  }
+
+  .display,
+  .flex.row.img-right {flex-direction: column-reverse;}
+
+  .display img,
+  .flavor-option,
+  .action img,
+  .action .copy-block,
+  .about-intro img,
+  .instablock img,
+  .about-outro p,
+  .about .copy-block,
+  .about-outro,
+  .info .flex.row img,
+  .copy-block,
+  .discover .flex.row img {width: 100%;}
+
+  .flavor-option div{
+    width: 75%;
+  }
+  .ops div:hover p.ingredients {display: none;}
+
+  .ops.active {width: 88%;}
+  .flavor {
+    padding: 90px 5px 70px;
+  }
+  .flavor .mid {height: auto;}
+  .pour {height: auto;}
+  .pour h1 {
+    font-size: 80px;
+    line-height: 78px;
+  }
+  .why .flex.inner img {object-fit: contain;}
+  .why .orange {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .why .flex.inner p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .display .copy-block a:hover, .action .copy-block a:hover {
+    color: #000;
+  }
+
+  .why .flex.inner img {
+     height: auto; 
+  }
+  .action.flex, .display.flex, .about-intro.flex, .info .flex {gap: 40px;}
+  .hide-md {display: none;}
+  .hide-lg {display: block;}
+  .about-outro {margin-top: 50px;}
+  .info h2 {text-align: center;}
+  .about .hero .logo-div {filter: invert(0%);}
+  .info .hero-inner h1,
+  .mag .hero-inner h1,
+  .ash .hero-inner h1 {
+    font-size: 62px;
+    line-height: 65px;
+    margin-top: 130px;
+  }
+  .linkOne {gap: 50px;}
+  .discover .flex.row img {margin: auto;}
+  .discover .img-right .copy-block {text-align: center;}
+  .discover ol li {list-style: none;}
+  .discover .hero p br {display: none;}
+  .footer .flex.row {gap: 7px;}
+  .flex.mail img {width: 25px; margin: 0;}
+  .footer p {line-height: 20px;}
+  .footer {padding-bottom: 20px;}
+}
+
+@media (max-width: 500px) {
+  .footer .flex:not(.mail),
+  .why .flex.wrap,
+  .hero nav {
+    flex-direction: column;
+  }
+
+  .flavor-option h2 {font-size: 28px;}
+  .displayTitle {
+    white-space: wrap;
+    margin-left: 0;
+  }
+
+  .why .flex.inner {
+    width: 100%;
+    padding: 0 11px;
+  }
+  .display {gap: 10px;}
+  .action p,
+  .display p,
+  .flavor .flavor-option h2  {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .copy-block h2, .flavor h2.center.uppercase, .why h2.title, .pour h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-inner h1 {
+    font-size: 44px;
+  }
+
+  .hero nav div:not(.linkOne) {width: 100%;}
+  .hero .logo-div {margin-top: 50px;}
+  .pour h1 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+
+  .pour h1 {
+    font-size: 44px;
+    line-height: 50px;
+    padding: 58px 10px;
+  }
+  .flavor-option div { margin-bottom: 40px;}
+  .ops.active {width: 100%;}
+  .ops div {width: 34%;}
+  .ops div:hover p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .action.section {padding: 0;}
+  footer .tag {width: 50%; margin: auto;}
+  .about-intro .med-text {
+    font-size: 31px;
+    line-height: 41px;
+    text-align: center;
+  }
+
+  .hero-about h1 {
+    line-height: 45px;
+    margin-top: 6rem;
+    font-size: 50px;
+  }
+  .about .hero nav {color: #ffffff;}
+  .discover .section {padding: 0;}
+  .discover li {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .discover p.title {
+    line-height: 22px;
+    text-align: center;
+  }
+  .discover .hero-inner h1 {
+    font-size: 54px;
+  }
+  .discover .hero p {font-size: 30px;}
+  .hero nav {margin-top: 15px;}
+  .discover .hero .logo-div {margin-top: 130px;}
+  .discover ul.dropdown li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'gothBlack';
+  }
+  .flex.mail {width: 57%;}
+  .footer .border .footer-nav {margin-top: 20px;}
+  .footer .border {margin-bottom: 10px;}
+  .footer .tag {
+    width: 100%;
+    margin: 12px 0;
+  }
+}
