@@ -57,7 +57,7 @@ export default function Home() {
       <section className="display flex">
         <Image src={mocktail} alt="Chili B." width={800} />
         <div className="copy-block">
-          <h2 className="uppercase green displayTitle">Elevate your daily&nbsp;routine</h2>
+          <h2 className="uppercase green displayTitle">Elevate your <br className="hide-lg"/>daily&nbsp;routine</h2>
           <p className="">Discover a new way to nourish your body and mind with our functional beverage crafted from real fruit juice and a blend of nature&apos;s finest ingredients. We&apos;re offering you a soothing antidote to the stresses of modern&nbsp;life.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
