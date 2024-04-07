@@ -28,8 +28,8 @@ export default function Magnesium() {
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
                 <ul class={isDrop ? "show dropdown" : "dropdown"}>
-                  <li className="red"><Link href="/magnesium">Magnesium</Link></li>
-                  <li className="yellow"><Link href="/ashwagandha">Ashwagandha</Link></li>
+                  <li className="red drop-li"><Link href="/magnesium">Magnesium</Link></li>
+                  <li className="yellow drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
               </div>
               <Link href="/about">About</Link>
@@ -53,7 +53,7 @@ export default function Magnesium() {
         <div className="flex row img-left section">
           <Image src={tworose} alt="Chili B." width={420} />
           <div className="copy-block">
-            <h2 className="med-text">Cranberry Sparkler (Non-Alcoholic):</h2>
+            <h2 className="med-text">Cranberry Sparkler (Non&#8209;Alcoholic):</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
               <li>1/2 cup Chili&nbsp;B. Cranberry & Rose Hips sparkling water</li>
@@ -224,7 +224,7 @@ export default function Magnesium() {
               <Image src={mail} alt="Chili B." width={50} />
               zena@chilibeverage.com
             </Link>
-            <Link href="https://instagram.com/chili_beverage" className="flex mail">
+            <Link href="https://instagram.com/chili_beverage" target="_blank" className="flex mail">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
           </div>

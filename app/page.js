@@ -37,8 +37,8 @@ export default function Home() {
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
                 <ul class={isDrop ? "show dropdown" : "dropdown"}>
-                  <li className="pink"><Link href="/magnesium">Magnesium</Link></li>
-                  <li className="purple"><Link href="/ashwagandha">Ashwagandha</Link></li>
+                  <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
+                  <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
               </div>
               <Link href="/about">About</Link>
@@ -132,7 +132,7 @@ export default function Home() {
         <Image src={action} alt="Chili B." width={700} />
         <div className="copy-block">
           <h2 className="uppercase red">Harmony in&nbsp;Action</h2>
-          <p className="">It&apos;s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but also contributes to your health.</p>
+          <p className="">It&apos;s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but contributes to your health.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function Home() {
               <Image src={mail} alt="Chili B." width={50} />
               zena@chilibeverage.com
             </Link>
-            <Link href="https://instagram.com/chili_beverage" className="flex mail">
+            <Link href="https://instagram.com/chili_beverage" target="_blank" className="flex mail">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
           </div>

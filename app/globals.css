@@ -65,8 +65,7 @@
 .orange {color: #DC7700;}
 .green {color: #10A75A;}
 .purple {color: #BF7CCB;}
-.red,
-.action .copy-block a:hover {color: #C9051C;}
+.red {color: #C9051C;}
 .yellow {color: #E4B200;}
 .pink {color: #F16D9F;}
 .black {color: #000000;}
@@ -262,7 +261,7 @@ nav.white-text {
   margin-bottom: 30px;
 }
 
-p, li {
+p, li:not(.drop-li) {
   font-family: 'gothLight';
   font-size: 35px;
   line-height: 45px;
@@ -274,12 +273,26 @@ p, li {
 }
 
 .copy-block a {
-  text-decoration: underline;
+  width: max-content;
+  background: #10A75A;
+  padding: 10px 19px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #10A75A;
+}
+.action .copy-block a {
+  background: #C9051C;
+  border: 1px solid #C9051C;
+}
+.action .copy-block a:hover {
+  color: #C9051C;
+  background: #ffffff;
 }
 
 /*.pour h2, */
 .display .copy-block a:hover {
-  color: #DC7700;
+  background: #ffffff;
+  color: #10A75A;
 }
 
 .pour {
@@ -559,10 +572,6 @@ p, li {
     line-height: 20px;
   }
 
-  .display .copy-block a:hover, .action .copy-block a:hover {
-    color: #000;
-  }
-
   .why .flex.inner img {
      height: auto; 
   }
@@ -588,6 +597,10 @@ p, li {
   .flex.mail img {width: 25px; margin: 0;}
   .footer p {line-height: 20px;}
   .footer {padding-bottom: 20px;}
+  .display .copy-block a:hover {
+    color: #ffffff;
+    background: #10A75A;
+  }
 }
 
 @media (max-width: 500px) {
@@ -696,6 +709,7 @@ p, li {
     background-color: #fff;
     padding: 20px;
     margin-left: 1rem;
+    width: 100%;
   }
   .hero nav .drop .show.dropdown li {background-color: #fff; font-size: 22px;}
 
@@ -708,7 +722,11 @@ p, li {
     width: 25px;
     margin: 0;
   }
-  .lastblock-nav, .about a {text-align: center;}
+  .lastblock-nav {text-align: center;}
   .about .section {padding: 0;}
   .about .instablock {margin: 7rem 0;}
+  .about .hero .logo-div {filter: invert(100%);}
+  .info .copy-block {padding: 0;}
+  .about-intro img {width: 85%;}
+  .about .copy-block a {margin: auto;}
 }
