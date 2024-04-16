@@ -542,7 +542,7 @@ p, li:not(.drop-li) {
   .about-outro,
   .info .flex.row img,
   .copy-block,
-  .discover .flex.row img {width: 100%;}
+  .discover .flex.row img:not(.fimg) {width: 100%;}
 
   .flavor-option div{
     width: 75%;
