@@ -446,7 +446,7 @@ p, li:not(.drop-li) {
   margin-bottom: 10px;
 }
 .info .flex.row img,
-.discover .flex.row img{
+.discover .flex.row img:not(.fimg) {
   width: 50%;
   object-fit: contain;
 }
@@ -464,7 +464,7 @@ p, li:not(.drop-li) {
   margin: 10px 0;
   font-size: 20px;
 }
-.discover ul {padding-left: 11px;}
+.discover ul {padding-left: 15px;}
 .discover ul li {list-style: disc;}
 
 .discover section.section:not(.hero) {margin-top: 40px;}
@@ -725,7 +725,4 @@ p, li:not(.drop-li) {
   .discover .copy-block h2, .about .section p {font-size: 35px;margin-bottom: 15px;}
   .discover .cartier {font-size: 50px;}
   .discover .copy-block {padding: 20px 12px;}
-  .hero-info {
-    background-position: -42rem center;
-  }
 }

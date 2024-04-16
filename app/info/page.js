@@ -44,7 +44,7 @@ export default function Info() {
       </section>
 
       <section className="section">
-        <p>Immerse yourself in the essence of indulgence as you discover our meticulously formulated functional beverage. Blending the purest real fruit juice with exquisite ingredients like magnesium or ashwagandha, our beverage is a symphony of flavor and wellness. Complemented by botanical treasures such as rose hips and lemon balm, each bottle offers a journey of sensory delight and rejuvenation.</p>
+        <p><span className="med-text">Immerse yourself in the essence of indulgence</span> as you discover our meticulously formulated functional beverage. Blending the purest real fruit juice with exquisite ingredients like magnesium or ashwagandha, our beverage is a symphony of flavor and wellness. Complemented by botanical treasures such as rose hips and lemon balm, each bottle offers a journey of sensory delight and rejuvenation.</p>
         <p>Our ingredients are carefully chosen for their proven benefits, from promoting relaxation to enhancing cognitive function and supporting overall well-being. With Chili B. you&apos;re not just savoring a drink; you&apos;re embracing a lifestyle of opulent wellness.</p>
       </section>
 
