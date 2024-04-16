@@ -27,7 +27,7 @@ export default function Magnesium() {
           <nav className="flex white-text">
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
-                <ul class={isDrop ? "show dropdown" : "dropdown"}>
+                <ul className={isDrop ? "show dropdown" : "dropdown"}>
                   <li className="red drop-li"><Link href="/magnesium">Magnesium</Link></li>
                   <li className="yellow drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
@@ -77,7 +77,7 @@ export default function Magnesium() {
 
         <div className="flex row img-right section">
           <div className="copy-block">
-            <h2 className="med-text">Cranberry Fizz Bizz (Alcoholic)</h2>
+            <h2 className="med-text">Cranberry Fizz Bizz</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
               <li>12 oz Chili&nbsp;B. Cranberry & Rose Hips sparkling water</li>
@@ -91,8 +91,8 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a cocktail shaker, combine the Chili&nbsp;B. Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice. Add ice cubes to the shaker.</li>
-              <li>Shake well until chilled.</li>
+              <li>In a cocktail shaker, combine the Chili&nbsp;B. Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice.</li>
+              <li>Add ice cubes to the shaker and shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
               <li>Garnish with a lime wedge and a few cranberries.</li>
@@ -108,7 +108,7 @@ export default function Magnesium() {
         <div className="flex row img-left section">
           <Image src={twopin} alt="Chili B." width={420} />
           <div className="copy-block">
-            <h2 className="med-text"> Pineapple Ginger Lemonade</h2>
+            <h2 className="med-text"> Pineapple Ginger Citrus Lemonade</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
               <li>1 cup Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water</li>
@@ -202,9 +202,9 @@ export default function Magnesium() {
             <p className="med-text title">Instructions:</p>
             <ul>
               <li>If desired, rim the glass with salt or sugar: Rub the rim of a glass with a lime wedge, then dip the rim into a shallow plate of salt or sugar to coat.</li>
-              <li>In a cocktail shaker, combine the Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice. Add ice cubes to the shaker.</li>
-              <li>Shake well until chilled.</li>
-              <li>Strain the mixture into the prepared glass filled with ice cubes.</li>
+              <li>In a cocktail shaker, combine the Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice.</li>
+              <li>Add ice to the shaker and shake well until chilled.</li>
+              <li>Strain the mixture into the prepared glass.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
             </ul>
             <p className="med-text title">A fizzy twist with this Apple & Guava Margarita!</p>

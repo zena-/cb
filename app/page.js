@@ -36,7 +36,7 @@ export default function Home() {
           <nav className="flex">
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
-                <ul class={isDrop ? "show dropdown" : "dropdown"}>
+                <ul className={isDrop ? "show dropdown" : "dropdown"}>
                   <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
                   <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
@@ -57,7 +57,7 @@ export default function Home() {
       <section className="display flex">
         <Image src={mocktail} alt="Chili B." width={800} />
         <div className="copy-block">
-          <h2 className="uppercase green displayTitle">Elevate your <br className="hide-lg"/>daily&nbsp;routine</h2>
+          <h2 className="uppercase green displayTitle">Elevate&nbsp;your <br className="hide-lg"/>daily&nbsp;routine</h2>
           <p className="">Discover a new way to nourish your body and mind with our functional beverage crafted from real fruit juice and a blend of nature&apos;s finest ingredients. We&apos;re offering you a soothing antidote to the stresses of modern&nbsp;life.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
@@ -107,7 +107,7 @@ export default function Home() {
 
       <section className="why">
         <div>
-          <h2 className="title uppercase">What makes us different</h2>
+          <h2 className="title uppercase">What makes us&nbsp;different</h2>
           <div className="flex wrap">
             <div className="flex inner">
               <Image src={realfruit} alt="Chili B." width={430} />
@@ -132,7 +132,7 @@ export default function Home() {
         <Image src={action} alt="Chili B." width={700} />
         <div className="copy-block">
           <h2 className="uppercase red">Harmony in&nbsp;Action</h2>
-          <p className="">It&apos;s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but contributes to your health.</p>
+          <p className="">It&apos;s time to embrace the science-backed benefits of our ingredients, carefully selected to support stress reduction, promote mental clarity, and nourish your body from within. A beverage that not only tastes great but contributes to your&nbsp;health.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
       </section>

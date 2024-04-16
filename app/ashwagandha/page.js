@@ -27,7 +27,7 @@ export default function Ashwagandha() {
           <nav className="flex white-text">
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
-                <ul class={isDrop ? "show dropdown" : "dropdown"}>
+                <ul className={isDrop ? "show dropdown" : "dropdown"}>
                   <li className="green drop-li"><Link href="/magnesium">Magnesium</Link></li>
                   <li className="red drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
@@ -68,7 +68,7 @@ export default function Ashwagandha() {
               <li>Fill a glass half way with ice cubes.</li>
               <li>In a separate small bowl, mix together the freshly squeezed orange juice and honey until well combined.</li>
               <li>Pour the sweetened orange juice mixture into the glass over the ice.</li>
-              <li>Slowly pour CB blood orange sparkling water over the juice mixture.</li>
+              <li>Pour Chili&nbsp;B. blood orange sparkling water over the juice&nbsp;mixture.</li>
               <li>Gently stir to combine the ingredients.</li>
               <li>Garnish with a slice of blood orange.</li>
             </ul>
@@ -119,7 +119,7 @@ export default function Ashwagandha() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a glass, muddle the fresh mint leaves with the freshly squeezed lime juice and honey until the mint releases its aroma.</li>
+              <li>In a glass, muddle the fresh mint leaves with the freshly squeezed lime juice and honey until the mint releases its&nbsp;aroma.</li>
               <li>Fill the glass with ice cubes.</li>
               <li>Pour CB lime and mint sparkling water over the ice.</li>
               <li>Stir gently to combine.</li>
@@ -204,7 +204,7 @@ export default function Ashwagandha() {
               <li>Add the fresh fruit slices to the pitcher and gently muddle them to release their juices.</li>
               <li>Refrigerate the sangria mixture for at least 1 hour to allow the flavors to meld.</li>
               <li>To serve, fill glasses with ice cubes.</li>
-              <li>Pour the sangria mixture into each glass, filling them about halfway.</li>
+              <li>Pour the sangria mixture into each glass, filling them about&nbsp;halfway.</li>
               <li>Top off each glass with hibiscus sparkling water.</li>
               <li>Stir gently to combine.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>

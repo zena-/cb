@@ -24,7 +24,7 @@ export default function About() {
           <nav className="flex ">
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
-                <ul class={isDrop ? "show dropdown" : "dropdown"}>
+                <ul className={isDrop ? "show dropdown" : "dropdown"}>
                   <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
                   <li className="purple drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>

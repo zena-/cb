@@ -25,7 +25,7 @@ export default function Info() {
           <nav className="flex white-text">
             <div className="linkOne flex">
               <div className="drop" onClick={showClick}>Discover
-                <ul class={isDrop ? "show dropdown" : "dropdown"}>
+                <ul className={isDrop ? "show dropdown" : "dropdown"}>
                   <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
                   <li className="purple drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
                 </ul>
@@ -39,7 +39,7 @@ export default function Info() {
             </div>
             <div></div>
           </nav>
-          <h1 className="bold white-copy uppercase">where wellness<br/>meets refreshment</h1>
+          <h1 className="bold white-copy uppercase">where wellness <br/>meets refreshment</h1>
         </div>
       </section>
 

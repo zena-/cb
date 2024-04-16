@@ -572,7 +572,7 @@ p, li:not(.drop-li) {
   .why .flex.inner img {
      height: auto; 
   }
-  .action.flex, .display.flex, .about-intro.flex, .info .flex {gap: 40px;}
+  .action.flex, .display.flex, .about-intro.flex, .info .flex:not(.mail) {gap: 40px;}
   .hide-md {display: none;}
   .hide-lg {display: block;}
   .about-outro {margin-top: 50px;}
@@ -627,8 +627,8 @@ p, li:not(.drop-li) {
   }
 
   .copy-block h2, .flavor h2.center.uppercase, .why h2.title, .pour h2 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   .hero-inner h1 {
@@ -637,14 +637,10 @@ p, li:not(.drop-li) {
 
   .hero nav div:not(.linkOne) {width: 100%;}
   .hero .logo-div {margin-top: 50px;}
-  .pour h1 {
-    font-size: 60px;
-    line-height: 65px;
-  }
 
   .pour h1 {
-    font-size: 44px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 45px;
     padding: 58px 10px;
   }
   .flavor-option div { margin-bottom: 40px;}
@@ -710,7 +706,7 @@ p, li:not(.drop-li) {
   .hero nav .drop .show.dropdown li {background-color: #fff; font-size: 22px;}
 
   .info .hero-inner h1, .mag .hero-inner h1, .ash .hero-inner h1 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 40px;
     margin-top: 100px;
   }
@@ -726,6 +722,10 @@ p, li:not(.drop-li) {
   .about-intro img {width: 85%;}
   .about .copy-block a {margin: auto;}
 
-  .discover .copy-block h2, .about .section p {font-size: 36px;margin-bottom: 15px;}
-  .discover .cartier {font-size: 55px;}
+  .discover .copy-block h2, .about .section p {font-size: 35px;margin-bottom: 15px;}
+  .discover .cartier {font-size: 50px;}
+  .discover .copy-block {padding: 20px 12px;}
+  .hero-info {
+    background-position: -42rem center;
+  }
 }
