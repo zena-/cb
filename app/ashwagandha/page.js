@@ -64,14 +64,14 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>Fill a glass half way with ice cubes.</li>
               <li>In a separate small bowl, mix together the freshly squeezed orange juice and honey until well combined.</li>
               <li>Pour the sweetened orange juice mixture into the glass over the ice.</li>
               <li>Slowly pour CB blood orange sparkling water over the juice mixture.</li>
               <li>Gently stir to combine the ingredients.</li>
               <li>Garnish with a slice of blood orange.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Knock back that Blood Orange Sparkling Mocktail!</p>
           </div>
         </div>
@@ -88,13 +88,13 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>Fill a glass with ice cubes.</li>
               <li>Pour the blood orange sparkling water into the glass.</li>
               <li>Top with prosecco or sparkling wine.</li>
               <li>Stir gently to combine.</li>
               <li>Garnish with a slice of blood orange.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Loving the Blood Orange Spritz!</p>
           </div>
           <Image src={boc} alt="Chili B." width={420} />
@@ -118,13 +118,13 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a glass, muddle the fresh mint leaves with the freshly squeezed lime juice and honey until the mint releases its aroma.</li>
               <li>Fill the glass with ice cubes.</li>
               <li>Pour CB lime and mint sparkling water over the ice.</li>
               <li>Stir gently to combine.</li>
               <li>Garnish with lime slices and additional mint leaves.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Enjoy your Mojito Mocktail!</p>
           </div>
         </div>
@@ -142,13 +142,13 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>Fill a glass with ice cubes.</li>
               <li>If using, add 1-2 ounces of vodka or gin to the glass for an alcoholic version.</li>
               <li>Pour CB lime and mint sparkling water over the ice.</li>
               <li>Stir gently to mix the ingredients together.</li>
               <li>Garnish with fresh lime slices and mint leaves.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Lime Mint Sparkler for days!</p>
           </div>
           <Image src={limecoc} alt="Chili B." width={420} />
@@ -172,14 +172,14 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>Fill a glass with ice cubes.</li>
               <li>In a separate container, mix together the lime juice, lemon juice, and honey until well combined.</li>
               <li>Pour the mixture into the glass over the ice.</li>
               <li>Top off with the hibiscus tea sparkling water.</li>
               <li>Stir gently to combine.</li>
               <li>Garnish with fresh orange slices.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Refresh it up with you Hibiscus Citrus Refresher!</p>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function Ashwagandha() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a pitcher, combine the red wine, brandy, orange liqueur, and honey or agave syrup. Stir until the honey is dissolved.</li>
               <li>Add the fresh fruit slices to the pitcher and gently muddle them to release their juices.</li>
               <li>Refrigerate the sangria mixture for at least 1 hour to allow the flavors to meld.</li>
@@ -208,7 +208,7 @@ export default function Ashwagandha() {
               <li>Top off each glass with hibiscus sparkling water.</li>
               <li>Stir gently to combine.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
-            </ol>
+            </ul>
             <p className="med-text title">I want to chill with you and this Hibiscus Sparkling Sangria!</p>
           </div>
           <Image src={teac} alt="Chili B." width={420} />

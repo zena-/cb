@@ -49,7 +49,7 @@ export default function Magnesium() {
       </section>
 
       <section className="section" id="cranberry">
-        <h2 className="cartier center">Cranberry & Rose Hips</h2>
+        <h2 className="cartier center">Cranberry & Rose&nbsp;Hips</h2>
         <div className="flex row img-left section">
           <Image src={tworose} alt="Chili B." width={420} />
           <div className="copy-block">
@@ -65,12 +65,12 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a glass or pitcher, combine the Cranberry & Rose Hips sparkling water, cranberry juice, orange juice, fresh lime juice, and honey (if using). Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the Cranberry Sparkler over the ice.</li>
               <li>Garnish each glass with orange slices and cranberries.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Sparkling Sparkler!</p>
           </div>
         </div>
@@ -90,13 +90,13 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a cocktail shaker, combine the Chili&nbsp;B. Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice. Add ice cubes to the shaker.</li>
               <li>Shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
               <li>Garnish with a lime wedge and a few cranberries.</li>
-            </ol>
+            </ul>
             <p className="med-text title">Loving the Blood Orange Spritz!</p>
           </div>
           <Image src={rosecocktail} alt="Chili B." width={420} />
@@ -120,13 +120,13 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a pitcher, combine the Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water, pineapple juice, fresh lemon juice, and honey or agave syrup. Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the pineapple ginger lemonade over the ice.</li>
               <li>Garnish each glass with a slice of lemon and pineapple.</li>
-            </ol>
-            <p className="med-text title">Pineapple Ginger Lemonade is the ade!</p>
+            </ul>
+            <p className="med-text title">Pineapple Ginger Lemonade just made my day!</p>
           </div>
         </div>
 
@@ -145,13 +145,13 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a cocktail shaker, combine the Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water, white rum, pineapple juice, fresh lemon juice, and ginger syrup or ginger liqueur. Add ice cubes to the shaker.</li>
               <li>Shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
               <li>Garnish with a slice of lemon and pineapple.</li>
-            </ol>
+            </ul>
             <p className="med-text title">A Tropical Ginger Spritzer!</p>
           </div>
           <Image src={pinecocktail} alt="Chili B." width={420} />
@@ -174,12 +174,12 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>In a glass, combine the Apple & Guava sparkling water, fresh lime juice, and honey (if using). Stir gently to mix.</li>
               <li>Add ice cubes to the glass.</li>
               <li>Garnish with thinly sliced apple and guava.</li>
               <li>Garnish with fresh orange slices.</li>
-            </ol>
+            </ul>
             <p className="med-text title">All day, any day with this Apple & Guava!</p>
           </div>
         </div>
@@ -200,13 +200,13 @@ export default function Magnesium() {
             </ul>
 
             <p className="med-text title">Instructions:</p>
-            <ol>
+            <ul>
               <li>If desired, rim the glass with salt or sugar: Rub the rim of a glass with a lime wedge, then dip the rim into a shallow plate of salt or sugar to coat.</li>
               <li>In a cocktail shaker, combine the Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice. Add ice cubes to the shaker.</li>
               <li>Shake well until chilled.</li>
               <li>Strain the mixture into the prepared glass filled with ice cubes.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
-            </ol>
+            </ul>
             <p className="med-text title">A fizzy twist with this Apple & Guava Margarita!</p>
           </div>
           <Image src={applecocktail} alt="Chili B." width={420} />

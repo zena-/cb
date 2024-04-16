@@ -457,19 +457,16 @@ p, li:not(.drop-li) {
 }
 .discover .section li {
   font-size: 12px;
-  line-height: 17px;
-  margin-bottom: 5px;
+  line-height: 16px;
+  margin-bottom: 10px;
 }
 .discover p.title {
   margin: 10px 0;
   font-size: 20px;
 }
-.discover ul li {list-style: inside;}
-.discover ol li {
-  list-style: auto;
-  margin-left: 18px;
-  padding-left: 7px;
-}
+.discover ul {padding-left: 11px;}
+.discover ul li {list-style: disc;}
+
 .discover section.section:not(.hero) {margin-top: 40px;}
 .discover ul.dropdown li {list-style: none;}
 
@@ -590,8 +587,7 @@ p, li:not(.drop-li) {
   }
   .linkOne {gap: 50px;}
   .discover .flex.row img {margin: auto;}
-  .discover .img-right .copy-block {text-align: center;}
-  .discover ol li {list-style: none;}
+
   .discover .hero p br {display: none;}
   .footer .flex.row {gap: 7px;}
   .flex.mail img {width: 25px; margin: 0;}
@@ -601,6 +597,7 @@ p, li:not(.drop-li) {
     color: #ffffff;
     background: #10A75A;
   }
+  .flex.row.img-right {margin-top: 34px;}
 }
 
 @media (max-width: 500px) {
@@ -679,7 +676,6 @@ p, li:not(.drop-li) {
   }
   .discover p.title {
     line-height: 22px;
-    text-align: center;
   }
   .discover .hero-inner h1 {
     font-size: 54px;
@@ -722,11 +718,14 @@ p, li:not(.drop-li) {
     width: 25px;
     margin: 0;
   }
-  .lastblock-nav {text-align: center;}
-  .about .section {padding: 0;}
+  .lastblock-nav, .about-intro p {text-align: center;}
+  .about .section {padding: 0 13px;}
   .about .instablock {margin: 7rem 0;}
   .about .hero .logo-div {filter: invert(100%);}
   .info .copy-block {padding: 0;}
   .about-intro img {width: 85%;}
   .about .copy-block a {margin: auto;}
+
+  .discover .copy-block h2, .about .section p {font-size: 36px;margin-bottom: 15px;}
+  .discover .cartier {font-size: 55px;}
 }
