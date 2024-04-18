@@ -645,7 +645,7 @@ p, li:not(.drop-li) {
   }
   .flavor-option div { margin-bottom: 40px;}
   .ops.active {width: 100%;}
-  .ops div {width: 34%;}
+  .ops div {width: 24%;}
   .ops div:hover p {
     font-size: 15px;
     line-height: 17px;
