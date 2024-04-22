@@ -68,10 +68,9 @@ export default function About() {
         <div className="flex border white-copy">
           <div className="flex row">
             <Link href="mailto:zena@chilibeverage.com" className="flex mail">
-              <Image src={mail} alt="Chili B." width={50} />
-              zena@chilibeverage.com
+              <Image src={mail} alt="Chili B." />
             </Link>
-            <Link href="https://instagram.com/chili_beverage" target="_blank" className="flex mail">
+            <Link href="https://instagram.com/chili_beverage" target="_blank" className="flex mail instLink">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
           </div>

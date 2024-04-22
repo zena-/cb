@@ -572,7 +572,7 @@ p, li:not(.drop-li) {
   .why .flex.inner img {
      height: auto; 
   }
-  .action.flex, .display.flex, .about-intro.flex, .info .flex:not(.mail) {gap: 40px;}
+  .action.flex, .display.flex, .about-intro.flex, .info .flex:not(.footerMid) {gap: 40px;}
   .hide-md {display: none;}
   .hide-lg {display: block;}
   .about-outro {margin-top: 50px;}
@@ -590,7 +590,7 @@ p, li:not(.drop-li) {
 
   .discover .hero p br {display: none;}
   .footer .flex.row {gap: 7px;}
-  .flex.mail img {width: 25px; margin: 0;}
+  .flex.instLink img {width: 25px; margin: 7px 0;}
   .footer p {line-height: 20px;}
   .footer {padding-bottom: 20px;}
   .display .copy-block a:hover {
@@ -710,11 +710,11 @@ p, li:not(.drop-li) {
     line-height: 40px;
     margin-top: 100px;
   }
-  .flex.row .flex.mail img {
-    width: 25px;
-    margin: 0;
+  .flex.row .flex.instLink img {
+    width: 20px;
+    margin: 10px 0;
   }
-  .lastblock-nav, .about-intro p {text-align: center;}
+  .about-intro p {text-align: center;}
   .about .section {padding: 0 13px;}
   .about .instablock {margin: 7rem 0;}
   .about .hero .logo-div {filter: invert(100%);}
@@ -725,4 +725,7 @@ p, li:not(.drop-li) {
   .discover .copy-block h2, .about .section p {font-size: 35px;margin-bottom: 15px;}
   .discover .cartier {font-size: 50px;}
   .discover .copy-block {padding: 20px 12px;}
+  .lastblock-nav p {
+    font-size: 16px;
+  }
 }
