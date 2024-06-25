@@ -6,10 +6,10 @@ import {useState} from 'react'
 
 import Image from "next/image";
 import aboutSix from '/public/about-six.png'
-import logo from '/public/logo.png'
+import logo from '/public/topNavLogo.png'
 import instaBl from '/public/insta-block.png'
 import instaPhone from '/public/insta-block-mobile.png'
-import logoFooter from '/public/logo-footer.png'
+import logoFooter from '/public/logoFooter.png'
 import tagFooter from '/public/tag-footer.png'
 import mail from '/public/mail-icon.png'
 import instIcon from '/public/insta-icon.png'
@@ -19,25 +19,28 @@ export default function About() {
   const showClick = event => setIsDrop(current => !current)
 	return (
     <main className="about ">
+      <nav className="flex">
+        <div>
+          <div className="logo-div">
+            <Link href="/">
+              <Image src={logo} alt="Chili B." width={115} height={24} />
+            </Link>
+          </div>
+        </div>
+
+        <div className="linkOne flex">
+          <div className="drop" onClick={showClick}>Discover
+            <ul className={isDrop ? "show dropdown" : "dropdown"}>
+              <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
+              <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
+            </ul>
+          </div>
+          <Link href="/about">About</Link>
+        </div>
+      </nav>
     	<section className="hero hero-about hero-white section">
         <div className="hero-inner">
-          <nav className="flex ">
-            <div className="linkOne flex">
-              <div className="drop" onClick={showClick}>Discover
-                <ul className={isDrop ? "show dropdown" : "dropdown"}>
-                  <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
-                  <li className="purple drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
-                </ul>
-              </div>
-              <Link href="/about">About</Link>
-            </div>
-            <div className="logo-div">
-              <Link href="/">
-                <Image src={logo} alt="Chili B." width={182} height={38} />
-              </Link>
-            </div>
-            <div></div>
-          </nav>
+          
           <h1>Welcome to Chili&nbsp;B.<br/>serving Wellness,<br/>One Sip at a Time</h1>
         </div>
       </section>
@@ -61,34 +64,28 @@ export default function About() {
       </section>
 
       <footer className="footer">
-        <div className="flex">
-          <Link href="/"><Image src={logoFooter} alt="Chili B." width={230} /></Link>
-          <Image src={tagFooter} alt="Chili B." className="tag" width={350} />
-        </div>
-        <div className="flex border white-copy">
-          <div className="flex row">
-            <Link href="mailto:zena@chilibeverage.com" className="flex mail">
-              <Image src={mail} alt="Chili B." />
+        <div className="flex"> 
+          <div className="four-zero">
+            <Image src={logoFooter} alt="Logo on footer" width={180} height={37} />
+          </div>
+          <div className="six-zero">
+            <Link href="mailto:zena@chilibeverage.com" className="mail">
+              zena@chilibeverage.com
             </Link>
-            <Link href="https://instagram.com/chili_beverage" target="_blank" className="flex mail instLink">
+          </div>
+        </div>
+        <div className="flex">
+          <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
+          <div className="flex-in six-zero">
+            <Link href="https://instagram.com/chili_beverage" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
-          </div>
-
-          <div className="flex row white-copy footer-nav">
-            <Link href="/about">About</Link>
-            <Link href="/magnesium">Magnesium</Link>
-            <Link href="/ashwagandha">Ashwagandha</Link>
-          </div>
-        </div>
-
-        <div className="flex row white-copy lastblock-nav">
-          <div>
-            <p>© 2024 ALL RIGHTS RESERVED.</p>
-          </div>
-          <div className="flex footer-nav row">
-            <p>Privacy Policy</p>
-            <p>Terms & Conditions</p>
+            <Link href="#" className="">
+              <p>Privacy Policy</p>
+            </Link>
+            <Link href="#" className="">
+              <p>Terms & Conditions</p>
+            </Link>
           </div>
         </div>
       </footer>
