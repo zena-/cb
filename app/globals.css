@@ -68,7 +68,7 @@
 .red {color: #C9051C;}
 .yellow {color: #E4B200;}
 .pink {color: #F16D9F;}
-.black {color: #000000;}
+.black {color: #212121;}
 .uppercase {text-transform: uppercase;}
 .cap {text-transform: capitalize;}
 .uppercase {text-transform: uppercase;}
@@ -89,7 +89,7 @@ main {
 }
 
 .hero-home {
-  background: url("../public/hero3.png") no-repeat center center;
+  background: url("../public/heroNew.png") no-repeat center center;
   background-size: cover;
 }
 .hero-about {
@@ -112,10 +112,10 @@ main {
 .hero-inner {
   width: 100%;
   height: 100vh;
-/*  background: #000;*/
-/*  rgba(0, 0, 0, 0.1);*/
   padding: 30px;
   margin-top: -30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-inner h1 {
@@ -124,40 +124,53 @@ main {
   margin-top: 30px;
 }
 
+.hero-inner p {
+  font-size: 18px;
+  font-family: 'gothLight';
+  text-align: center;
+}
+
 .hero .logo-div,
 .hero-logo-white {filter: invert(100%);}
 
 .linkOne {
   gap: 20px;
+  font-family: 'gothLight';
 }
 
-.hero nav .dropdown {
+nav .dropdown {
   visibility: hidden;
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
-  left: 0;
+  right: 18rem;
   display: none;
   margin-left: 4rem;
   margin-top: 10px;
+  background: #F7F7F7;
+  width: 15%;
+  text-align: center;
+  padding: 10px;
 }
-.hero nav .drop {cursor: pointer;}
-.hero nav .drop .show.dropdown {
+nav .drop {cursor: pointer;}
+nav .drop .show.dropdown {
   visibility: visible;
   opacity: 1;
   display: block;
 }
-.hero nav .dropdown li {
+nav .dropdown li {
   clear: both;
   width: 100%;
   margin-bottom: 10px;
 }
 
-.hero nav {
-  justify-content: space-evenly;
+nav {
+  justify-content: space-between;
   font-family: 'gothMed';
   text-transform: uppercase;
-  color: #000000;
+  background-color: #212121;
+  color: #fff;
+  padding: 20px;
 }
 
 nav.white-text {
@@ -168,7 +181,7 @@ nav.white-text {
 }
 .info .hero .logo-div {filter: invert(0%);}
 
-.hero nav div {
+nav div {
   width: 33%;
 }
 
@@ -184,6 +197,11 @@ nav.white-text {
 .display {
   padding: 50px 0;
   width: 100vw;
+  background: url("../public/block3.png") no-repeat center center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  min-height: 550px;
 }
 
 .display .title {
@@ -196,14 +214,10 @@ nav.white-text {
   height: 55px;
 }
 
-.display .cans {
-  justify-content: center;
-  gap: 25px;
-}
-
-.displayTitle {
-  white-space: nowrap;
-  margin-left: -16rem;
+.displayTitle, .action h2, .flavor .tit {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: gothBold;
 }
 
 .title {
@@ -212,34 +226,37 @@ nav.white-text {
 }
 
 .footer {
-  background-color: #020202;
-  margin-top: 30px;
-  padding: 20px 20px 0;
+  background-color: #212121;
+  padding: 20px 30px;
+  color: #fff;
 }
 .footer .flex {
   width: 100%;
-  justify-content: space-between;
+  margin-bottom: 25px;
 }
-.footer .tag {
-  width: 32%;
-  height: 18px;
-  align-self: center;
+.footer .flex-in {
+  display: flex;
+  gap: 15px;
+}
+.footer .flex-in a {
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer .flex-in a:first-child {border: 1px solid #fff;}
+.four-zero {width: 40%;}
+.six-zero {
+  width: 60%;
+  align-self: flex-end;
 }
 .footer p {
-  font-size: 13px;
-  margin-bottom: 0;
+  margin: 0;
+  font-size: 16px;
+  align-self: center;
 }
-.footer .border {
-  border-right: none;
-  border-left: none;
-  padding: 15px 0;
-  margin-top: 7px;
-}
-.flex.mail{gap: 7px; margin-right: 15px;}
-.footer-nav {gap: 17px;}
-.flex.mail img{ margin: auto;}
-.footer .flex.row {width: auto;}
-.footer .flex.row a {align-items: center;}
+.footer img {object-fit: contain;}
+
 
 .white-copy {
   color: #F0EFEB;
@@ -253,7 +270,6 @@ nav.white-text {
   width: 50%;
 }
 
-.copy-block h2, .flavor h2, .why h2.title, .pour h2,
 .instablock h1 {
   font-family: 'gothBold';
   font-size: 50px;
@@ -263,8 +279,8 @@ nav.white-text {
 
 p, li:not(.drop-li) {
   font-family: 'gothLight';
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 21px;
   margin-bottom: 30px;
 }
 
@@ -274,42 +290,32 @@ p, li:not(.drop-li) {
 
 .copy-block a {
   width: max-content;
-  background: #10A75A;
+  background: #212121;
   padding: 10px 19px;
   color: #ffffff;
-  border-radius: 20px;
-  border: 1px solid #10A75A;
-}
-.action .copy-block a {
-  background: #C9051C;
-  border: 1px solid #C9051C;
-}
-.action .copy-block a:hover {
-  color: #C9051C;
-  background: #ffffff;
+  border: 1px solid #212121;
+  margin: auto;
 }
 
 /*.pour h2, */
-.display .copy-block a:hover {
+.copy-block a:hover {
   background: #ffffff;
-  color: #10A75A;
+  color: #212121;
 }
 
 .pour {
-  background: url("../public/background-pour.png") no-repeat center center;
+  background: url("../public/block5.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
+  justify-content: center;
+  min-height: 550px;
 }
 .pour h1 {
-  width: 50%;
   font-weight: 700;
-  font-family: 'gothBold';
+  font-family: 'goth';
   color: #ffffff;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 36px;
   align-self: center;
-  margin-bottom: 0;
-  padding: 50px;
 }
 
 .pour img {
@@ -322,42 +328,37 @@ p, li:not(.drop-li) {
   gap: 30px;
   align-items: baseline;
 }
-.flavor {padding: 150px 5px;}
+.flavor {padding: 90px 5px;}
 .flavor-option  h2 {
-  font-family: 'gothMed';
-  font-size: 40px;
-  line-height: 45px;
-  margin-bottom: 30px;
+  font-family: 'goth';
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 5px;
 }
-.flavor .mid {
-  height: 50rem;
-}
+
 
 .flavor-option {
-  width: 70%;
-  justify-content: space-evenly;
-  margin: 90px auto auto;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+  margin-top: 60px;
 }
 
-
 .flavor-option div {
-  width: 40%;
-/*  border-bottom: 1px solid #F0EFEB;*/
-  border-bottom: 1px solid #000;
-  text-align: center;
   cursor: pointer;
-  margin-bottom: 90px;
+  color: grey;
 }
 
 .flavor-option div.active {
-  color: #D94E6D;
-  border-bottom: 1px solid #D94E6D;
+  color: #212121;
+  border-bottom: 1px solid #212121;
 }
 
 .ops.active {
   justify-content: space-evenly;
   width: 70%;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .ops:not(.active) {
@@ -365,17 +366,74 @@ p, li:not(.drop-li) {
 }
 .ops img {margin: auto;}
 .ops p {display: none;}
-.ops div {width: 32%;}
+/*.ops a {width: 32%;}*/
+/*.ops a div {margin: auto;}*/
 .ops div:hover p {
   display: block;
-  text-align: center;
-  width: 70%;
-  font-size: 20px;
-  line-height: 26px;
+  width: 90%;
+  font-size: 16px;
+  line-height: 19px;
   margin: 20px auto;
   text-transform: capitalize;
-  font-family: 'goth';
+  font-family: 'gothLight';
+  color: grey;
 }
+
+.imgBox {
+  width: 268px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+.imgBox.orange {
+  background: url("../public/can-orange2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.orange:hover {
+  background: url("../public/can-orange2B.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.red {
+  background: url("../public/can-rose2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.red:hover {
+  background: url("../public/can-rose2B.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.green {
+  background: url("../public/can-lime2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.green:hover {
+  background: url("../public/can-lime2B.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.pink {
+  background: url("../public/can-apple2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.pink:hover {
+  background: url("../public/can-apple2B.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.yellow {
+  background: url("../public/can-lemon2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.yellow:hover {
+  background: url("../public/can-lemon2B.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.purple {
+  background: url("../public/can-tea2.png") no-repeat center center;
+  background-size: cover;
+}
+.imgBox.purple:hover {
+  background: url("../public/can-tea2B.png") no-repeat center center;
+  background-size: cover;
+}
+
 
 .why {
   padding: 100px 0;
@@ -386,32 +444,62 @@ p, li:not(.drop-li) {
 }
 .why .flex.inner {
   flex-direction: column;
-  width: 30%;
+  width: 25%;
+}
+.why .flex.inner.flip {
+  flex-direction: column-reverse;
+  align-self: baseline;
+}
+.why .flex.inner.flip h4 {
+  order: 1;
+  margin-top: 0;
 }
 .why .flex.inner p {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 19px;
 }
 .why .flex.inner img {
-  height: 200px;
+  height: 300px;
 }
-.why .orange {
-  font-family: 'gothBlack';
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 45px;
+.why h4 {
+  font-family: goth;
+  font-size: 20px;
+  line-height: 22px;
   margin: 10px 0;
+  text-transform: capitalize;
 }
-.why h2.title {text-align: center;}
+.why h2 {
+  text-align: center;
+  font-family: 'gothBold';
+  margin-bottom: 35px;
+  font-size: 36px;
+}
 
+.flow {
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 0;
+}
+.flow img {
+  width: 590px;
+  height: 550px;
+}
+
+.action {
+  justify-content: center;
+  text-align: center;
+}
 .action .copy-block {
   width: 50%;
 }
 
-.footer {
-  margin-top: 30px;
-  justify-content: space-between;
+.lastBlock {
+  background: url("../public/lastBlock.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 650px;
 }
+
 
 /*about*/
 .about-intro img {
@@ -432,7 +520,7 @@ p, li:not(.drop-li) {
 }
 .hero-about h1 {
   font-family: 'gothBold';
-  color: #000000;
+  color: #212121;
   font-size: 50px;
   text-align: center;
   line-height: 60px;
@@ -474,6 +562,7 @@ p, li:not(.drop-li) {
 .hide-md {display: block;}
 .see-text { background: rgba(36,36,36,0.4);}
 
+
 @media (min-width: 1988px) {
   .why .flex.inner img {
     height: 400px;
@@ -481,38 +570,32 @@ p, li:not(.drop-li) {
     object-fit: cover;
   }
   .action img, .display img {width: 50%;}
-  .copy-block h2, .flavor h2, .why h2.title, .pour h2, .instablock h1 {
-    font-size: 82px;
-    line-height: 95px;
-  }
+
   .action p, .display p {
-    font-size: 74px;
-    line-height: 83px;
+    font-size: 24px;
+    line-height: 30px;
   }
-  .hero-inner h1, .pour h1 {font-size: 121px;}
-  .copy-block a, .why .orange {font-size: 50px;}
+  .copy-block a, .why .orange {font-size: 20px;}
   .why .flex.inner p {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .ops img {width: 50%;}
-  .flavor .mid {
-    height: 94rem;
-  }
+
   .hero-about h1, .discover .cartier {line-height: 112px;}
   .about-intro .med-text, .about-outro p {
     font-size: 69px;
     line-height: 77px;
   }
   .about-intro img {width: 40%;}
-  .info p {
+  .info p, .why h2, .displayTitle, .action h2, .flavor .tit, .hero-inner h1, .pour h1 {
     font-size: 40px;
     line-height: 50px;
   }
   .info .section {
     padding: 50px 20px;
   }
-  .discover li {
+  .discover li, .why h4  {
     font-size: 30px;
     line-height: 42px;
   }
@@ -522,6 +605,8 @@ p, li:not(.drop-li) {
   }
 }
 @media (max-width: 1030px) {
+  .lastBlock {height: auto;}
+
   .action,
   .flex.row,
   .img-left {
@@ -542,11 +627,9 @@ p, li:not(.drop-li) {
   .about-outro,
   .info .flex.row img,
   .copy-block,
-  .discover .flex.row img:not(.fimg) {width: 100%;}
+  .discover .flex.row img:not(.fimg) {width: 90%;}
 
-  .flavor-option div{
-    width: 75%;
-  }
+
   .ops div:hover p.ingredients {display: none;}
 
   .ops.active {width: 88%;}
@@ -555,10 +638,7 @@ p, li:not(.drop-li) {
   }
   .flavor .mid {height: auto;}
   .pour {height: auto;}
-  .pour h1 {
-    font-size: 80px;
-    line-height: 78px;
-  }
+
   .why .flex.inner img {object-fit: contain;}
   .why .orange {
     font-size: 32px;
@@ -589,10 +669,8 @@ p, li:not(.drop-li) {
   .discover .flex.row img {margin: auto;}
 
   .discover .hero p br {display: none;}
-  .footer .flex.row {gap: 7px;}
   .flex.instLink img {width: 25px; margin: 7px 0;}
-  .footer p {line-height: 20px;}
-  .footer {padding-bottom: 20px;}
+
   .display .copy-block a:hover {
     color: #ffffff;
     background: #10A75A;
@@ -600,18 +678,27 @@ p, li:not(.drop-li) {
   .flex.row.img-right {margin-top: 34px;}
 }
 
-@media (max-width: 500px) {
-  .footer .flex:not(.mail),
+@media (max-width: 830px) {
   .why .flex.wrap,
-  .hero nav {
+  .hero nav,
+  .why .flex.inner.flip,
+  .flow {
     flex-direction: column;
   }
 
-  .flavor-option h2 {font-size: 28px;}
-  .displayTitle {
-    white-space: wrap;
-    margin-left: 0;
-    width: 90%;
+  .flow img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  .flavor-option h2 {font-size: 20px;}
+
+  .lastBlock {min-height: 260px;}
+
+  .why .flex.inner img {
+    margin: auto;
+    width: 100%;
   }
 
   .why .flex.inner {
@@ -619,33 +706,25 @@ p, li:not(.drop-li) {
     padding: 0 11px;
   }
   .display {gap: 10px;}
-  .action p,
-  .display p,
-  .flavor .flavor-option h2  {
-    font-size: 20px;
-    line-height: 35px;
-  }
 
-  .copy-block h2, .flavor h2.center.uppercase, .why h2.title, .pour h2 {
+
+  .copy-block h2, .why h2.title, .pour h2 {
     font-size: 35px;
     line-height: 45px;
   }
 
   .hero-inner h1 {
-    font-size: 44px;
+    font-size: 60px;
   }
 
-  .hero nav div:not(.linkOne) {width: 100%;}
   .hero .logo-div {margin-top: 50px;}
 
   .pour h1 {
-    font-size: 35px;
-    line-height: 45px;
-    padding: 58px 10px;
+    text-align: center;
   }
-  .flavor-option div { margin-bottom: 40px;}
-  .ops.active {width: 100%;}
-  .ops div {width: 24%;}
+  .ops.active,
+  .imgBox {width: 100%;}
+  .ops div {width: 34%;}
   .ops div:hover p {
     font-size: 15px;
     line-height: 17px;
@@ -664,7 +743,7 @@ p, li:not(.drop-li) {
     margin-top: 6rem;
     font-size: 50px;
   }
-  .about .hero nav {color: #ffffff;}
+
   .discover .section {padding: 0;}
   .discover li {
     font-size: 14px;
@@ -681,7 +760,6 @@ p, li:not(.drop-li) {
     line-height: 28px;
     padding: 10px 0;
   }
-  .hero nav {margin-top: 15px;}
   .discover .hero .logo-div {margin-top: 130px;}
   .discover ul.dropdown li {
     list-style: none;
@@ -689,21 +767,15 @@ p, li:not(.drop-li) {
     line-height: 27px;
     font-family: 'gothBlack';
   }
-  .flex.mail {width: 57%;}
-  .footer .border .footer-nav {margin-top: 20px;}
-  .footer .border {margin-bottom: 10px;}
-  .footer .tag {
-    width: 100%;
-    margin: 12px 0;
+
+  nav div {
+    width: auto;
   }
-  .hero nav .drop .show.dropdown {
-    z-index: 2; 
-    background-color: #fff;
-    padding: 20px;
-    margin-left: 1rem;
-    width: 100%;
+
+  .why .flex.inner.flip h4 {
+    order: 0;
+    margin-top: 10px;
   }
-  .hero nav .drop .show.dropdown li {background-color: #fff; font-size: 22px;}
 
   .info .hero-inner h1, .mag .hero-inner h1, .ash .hero-inner h1 {
     font-size: 38px;
@@ -725,7 +797,44 @@ p, li:not(.drop-li) {
   .discover .copy-block h2, .about .section p {font-size: 35px;margin-bottom: 15px;}
   .discover .cartier {font-size: 50px;}
   .discover .copy-block {padding: 20px 12px;}
-  .lastblock-nav p {
-    font-size: 16px;
+
+  .footer img {margin: 15px auto;}
+  .footer .flex,
+  .footer .flex-in {
+    flex-direction: column;
+  }
+  .four-zero, .six-zero {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer .flex-in a:first-child {margin-top: 20px;}
+  .footer .flex-in a {padding: 0;}
+
+  .display {
+    background: url("../public/block3-mobile.png") no-repeat center center;
+    background-size: cover;
+    min-height: 750px;
+  }
+
+  .hero-home {
+    background: url("../public/heroNew-mobile.png") no-repeat center center;
+    background-size: cover;
+  }
+
+  .hero-inner {
+    height: 82vh;
+    justify-content: center;
+  }
+  .hero-home.section {
+    padding: 30px 0 0;
+  }
+
+  .lineup {
+    background: url("../public/lineup.png") no-repeat center center;
+    background-size: cover;
+    height: 175px;
+    width: 100%;
   }
 }
