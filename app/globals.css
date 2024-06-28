@@ -101,11 +101,11 @@ main {
   background-size: cover;
 }
 .hero-mag {
-  background: url("../public/hero-mag.png") no-repeat top center;
+  background: url("../public/mag-hero.png") no-repeat center center;
   background-size: cover;
 }
 .hero-ash {
-  background: url("../public/hero-ash.png") no-repeat top center;
+  background: url("../public/ash-hero.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -539,10 +539,17 @@ p, li:not(.drop-li) {
   object-fit: contain;
 }
 
-.discover .cartier {
-  font-size: 70px;
-  line-height: 70px;
+.discover .section:not(.hero) {
+  width: 90%;
+  margin: 50px auto;
+  padding: 0;
 }
+.discover .bold {
+  font-size: 36px;
+}
+.discover .med-text {font-size: 26px}
+.discover .med-text.greytext {color:#EFEFEF;}
+
 .discover .section li {
   font-size: 12px;
   line-height: 16px;
@@ -550,7 +557,7 @@ p, li:not(.drop-li) {
 }
 .discover p.title {
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 .discover ul {padding-left: 15px;}
 .discover ul li {list-style: disc;}
@@ -558,9 +565,12 @@ p, li:not(.drop-li) {
 .discover section.section:not(.hero) {margin-top: 40px;}
 .discover ul.dropdown li {list-style: none;}
 
+.greybacked {
+  background-color: #F7F7F7;
+}
+
 .hide-lg {display: none;}
 .hide-md {display: block;}
-.see-text { background: rgba(36,36,36,0.4);}
 
 
 @media (min-width: 1988px) {
@@ -723,7 +733,8 @@ p, li:not(.drop-li) {
     text-align: center;
   }
   .ops.active,
-  .imgBox {width: 100%;}
+  .imgBox,
+  .discover .section:not(.hero) {width: 100%;}
   .ops div {width: 34%;}
   .ops div:hover p {
     font-size: 15px;
@@ -837,4 +848,7 @@ p, li:not(.drop-li) {
     height: 175px;
     width: 100%;
   }
+
+  .hero-mag, .hero-ash {margin-top: 33px;}
+  .discover .section:not(.hero) {padding-top: 20px;}
 }

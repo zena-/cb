@@ -14,7 +14,6 @@ import tworose from '/public/two-rose.png'
 import rosecocktail from '/public/rose-cocktail.png'
 import pinecocktail from '/public/pine-cocktail.png'
 import applecocktail from '/public/apple-cocktail.png'
-import mail from '/public/mail-icon.png'
 import instIcon from '/public/insta-icon.png'
 
 export default function Magnesium() {
@@ -41,10 +40,10 @@ export default function Magnesium() {
           <Link href="/about">About</Link>
         </div>
       </nav>
-    	<section className="hero hero-mag hero-white section">
+    	<section className="hero hero-mag black section">
         <div className="hero-inner">
 
-          <div className="see-text">
+          <div className="">
             <h1>Magnesium</h1>
             <p className="center">An essential mineral that plays a crucial <br/>role in numerous bodily functions.</p>
           </div>
@@ -52,9 +51,9 @@ export default function Magnesium() {
       </section>
 
       <section className="section" id="cranberry">
-        <h2 className="cartier center">Cranberry & Rose&nbsp;Hips</h2>
+        <h2 className="bold center">Cranberry & Rose&nbsp;Hips</h2>
         <div className="flex row img-left section">
-          <Image src={tworose} alt="Chili B." width={420} />
+          <Image src={tworose} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text">Cranberry Sparkler (Non&#8209;Alcoholic):</h2>
             <p className="med-text title">Ingredients:</p>
@@ -74,11 +73,12 @@ export default function Magnesium() {
               <li>Pour the Cranberry Sparkler over the ice.</li>
               <li>Garnish each glass with orange slices and cranberries.</li>
             </ul>
-            <p className="med-text title">Sparkling Sparkler!</p>
+            <p className="med-text title greytext">Sparkling Sparkler!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={rosecocktail} alt="Chili B." width={634} />
           <div className="copy-block">
             <h2 className="med-text">Cranberry Fizz Bizz</h2>
             <p className="med-text title">Ingredients:</p>
@@ -100,16 +100,14 @@ export default function Magnesium() {
               <li>Strain the cocktail into the prepared glass.</li>
               <li>Garnish with a lime wedge and a few cranberries.</li>
             </ul>
-            <p className="med-text title">Loving the Blood Orange Spritz!</p>
           </div>
-          <Image src={rosecocktail} alt="Chili B." width={420} />
         </div>
       </section>
 
       <section className="section" id="pineapple">
-        <h2 className="cartier center">Pineapple & Ginger</h2>
+        <h2 className="bold center">Pineapple & Ginger</h2>
         <div className="flex row img-left section">
-          <Image src={twopin} alt="Chili B." width={420} />
+          <Image src={twopin} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text"> Pineapple Ginger Citrus Lemonade</h2>
             <p className="med-text title">Ingredients:</p>
@@ -129,11 +127,12 @@ export default function Magnesium() {
               <li>Pour the pineapple ginger lemonade over the ice.</li>
               <li>Garnish each glass with a slice of lemon and pineapple.</li>
             </ul>
-            <p className="med-text title">Pineapple Ginger Lemonade just made my day!</p>
+            <p className="med-text title greytext">Pineapple Ginger Lemonade just made my day!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={pinecocktail} alt="Chili B." width={420} />
           <div className="copy-block">
             <h2 className="med-text">Tropical Ginger Spritzer</h2>
             <p className="med-text title">Ingredients:</p>
@@ -155,16 +154,14 @@ export default function Magnesium() {
               <li>Strain the cocktail into the prepared glass.</li>
               <li>Garnish with a slice of lemon and pineapple.</li>
             </ul>
-            <p className="med-text title">A Tropical Ginger Spritzer!</p>
           </div>
-          <Image src={pinecocktail} alt="Chili B." width={420} />
         </div>
       </section>
 
       <section className="section" id="apple">
-        <h2 className="cartier center">Apple & Guava</h2>
+        <h2 className="bold center">Apple & Guava</h2>
         <div className="flex row img-left section">
-          <Image src={twoapples} alt="Chili B." width={420} />
+          <Image src={twoapples} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text">Apple & Guava Refresher:</h2>
             <p className="med-text title">Ingredients:</p>
@@ -183,11 +180,12 @@ export default function Magnesium() {
               <li>Garnish with thinly sliced apple and guava.</li>
               <li>Garnish with fresh orange slices.</li>
             </ul>
-            <p className="med-text title">All day, any day with this Apple & Guava!</p>
+            <p className="med-text title greytext">All day, any day with this Apple & Guava!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={applecocktail} alt="Chili B." width={634} />
           <div className="copy-block">
             <h2 className="med-text">Guava-Apple Sparkling Margarita:</h2>
             <p className="med-text title">Ingredients:</p>
@@ -210,9 +208,7 @@ export default function Magnesium() {
               <li>Strain the mixture into the prepared glass.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
             </ul>
-            <p className="med-text title">A fizzy twist with this Apple & Guava Margarita!</p>
           </div>
-          <Image src={applecocktail} alt="Chili B." width={420} />
         </div>
       </section>
 

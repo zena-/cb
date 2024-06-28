@@ -14,7 +14,6 @@ import twolimes from '/public/twolimes.png'
 import limecoc from '/public/lime-cocktail.png'
 import twoteas from '/public/two-teas.png'
 import teac from '/public/tea-cocktail.png'
-import mail from '/public/mail-icon.png'
 import instIcon from '/public/insta-icon.png'
 
 export default function Ashwagandha() {
@@ -42,9 +41,9 @@ export default function Ashwagandha() {
         </div>
       </nav>
 
-    	<section className="hero hero-ash hero-white section">
+    	<section className="hero hero-ash black section">
         <div className="hero-inner">
-          <div className="see-text">
+          <div className="">
             <h1>Ashwagandha</h1>
             <p className="center">Herb known for helping the body manage <br/>stress and maintain balance.</p>
           </div>
@@ -52,9 +51,9 @@ export default function Ashwagandha() {
       </section>
 
       <section className="section" id="orange">
-        <h2 className="cartier center">Blood Orange</h2>
+        <h2 className="bold center">Blood Orange</h2>
         <div className="flex row img-left section">
-          <Image src={dbo} alt="Chili B." width={420} />
+          <Image src={dbo} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text">Blood Orange Sparkling&nbsp;Mocktail</h2>
             <p className="med-text title">Ingredients:</p>
@@ -75,11 +74,12 @@ export default function Ashwagandha() {
               <li>Gently stir to combine the ingredients.</li>
               <li>Garnish with a slice of blood orange.</li>
             </ul>
-            <p className="med-text title">Knock back that Blood Orange Sparkling Mocktail!</p>
+            <p className="med-text title greytext">Knock back that Blood Orange Sparkling Mocktail!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={boc} alt="Chili B." width={601} />
           <div className="copy-block">
             <h2 className="med-text">Blood Orange Spritz</h2>
             <p className="med-text title">Ingredients:</p>
@@ -98,16 +98,14 @@ export default function Ashwagandha() {
               <li>Stir gently to combine.</li>
               <li>Garnish with a slice of blood orange.</li>
             </ul>
-            <p className="med-text title">Loving the Blood Orange Spritz!</p>
           </div>
-          <Image src={boc} alt="Chili B." width={420} />
         </div>
       </section>
 
       <section className="section" id="lime">
-        <h2 className="cartier center">Lime & Mint</h2>
+        <h2 className="bold center">Lime & Mint</h2>
         <div className="flex row img-left section">
-          <Image src={twolimes} alt="Chili B." width={420} />
+          <Image src={twolimes} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text">Mojito Mocktail</h2>
             <p className="med-text title">Ingredients:</p>
@@ -128,11 +126,12 @@ export default function Ashwagandha() {
               <li>Stir gently to combine.</li>
               <li>Garnish with lime slices and additional mint leaves.</li>
             </ul>
-            <p className="med-text title">Enjoy your Mojito Mocktail!</p>
+            <p className="med-text title greytext">Enjoy your Mojito Mocktail!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={limecoc} alt="Chili B." width={601} />
           <div className="copy-block">
             <h2 className="med-text">Lime Mint Sparkler</h2>
             <p className="med-text title">Ingredients:</p>
@@ -152,16 +151,14 @@ export default function Ashwagandha() {
               <li>Stir gently to mix the ingredients together.</li>
               <li>Garnish with fresh lime slices and mint leaves.</li>
             </ul>
-            <p className="med-text title">Lime Mint Sparkler for days!</p>
           </div>
-          <Image src={limecoc} alt="Chili B." width={420} />
         </div>
       </section>
 
       <section className="section" id="hibiscus">
-        <h2 className="cartier center">Hibiscus Tea</h2>
+        <h2 className="bold center">Hibiscus Tea</h2>
         <div className="flex row img-left section">
-          <Image src={twoteas} alt="Chili B." width={420} />
+          <Image src={twoteas} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text">Hibiscus Citrus Refresher:</h2>
             <p className="med-text title">Ingredients:</p>
@@ -183,11 +180,12 @@ export default function Ashwagandha() {
               <li>Stir gently to combine.</li>
               <li>Garnish with fresh orange slices.</li>
             </ul>
-            <p className="med-text title">Refresh it up with you Hibiscus Citrus Refresher!</p>
+            <p className="med-text title greytext">Refresh it up with you Hibiscus Citrus Refresher!</p>
           </div>
         </div>
 
-        <div className="flex row img-right section">
+        <div className="flex row greybacked section">
+          <Image src={teac} alt="Chili B." width={601} />
           <div className="copy-block">
             <h2 className="med-text">Hibiscus Sparkling Sangria:</h2>
             <p className="med-text title">Ingredients:</p>
@@ -212,9 +210,7 @@ export default function Ashwagandha() {
               <li>Stir gently to combine.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
             </ul>
-            <p className="med-text title">I want to chill with you and this Hibiscus Sparkling Sangria!</p>
           </div>
-          <Image src={teac} alt="Chili B." width={420} />
         </div>
       </section>
 
