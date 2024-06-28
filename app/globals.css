@@ -270,11 +270,12 @@ nav div {
   width: 50%;
 }
 
-.instablock h1 {
+.instablockH1 {
   font-family: 'gothBold';
-  font-size: 50px;
-  line-height: 55px;
-  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin: 50px auto;
 }
 
 p, li:not(.drop-li) {
@@ -502,6 +503,7 @@ p, li:not(.drop-li) {
 
 
 /*about*/
+.about-intro {flex-direction: column;}
 .about-intro img {
 /*  align-self: center;*/
   margin: auto;
@@ -510,10 +512,7 @@ p, li:not(.drop-li) {
   font-size: 43px;
   line-height: 53px;
 }
-.instablock h1 {
-  text-align: center;
-  margin-top: 50px;
-}
+
 .about-outro {
   width: 60%;
   margin: 100px auto 50px;
@@ -696,11 +695,14 @@ p, li:not(.drop-li) {
     flex-direction: column;
   }
 
-  .flow img {
+  .flow img,
+  .instablock img {
     width: 95%;
     height: auto;
     margin: auto;
   }
+
+  .about .section p {margin: 20px auto;}
 
   .flavor-option h2 {font-size: 20px;}
 
@@ -756,7 +758,8 @@ p, li:not(.drop-li) {
   }
 
   .discover .section {padding: 0;}
-  .discover li {
+  .discover li,
+  .about .section p {
     font-size: 14px;
     line-height: 17px;
   }
@@ -798,14 +801,14 @@ p, li:not(.drop-li) {
     margin: 10px 0;
   }
   .about-intro p {text-align: center;}
-  .about .section {padding: 0 13px;}
+  .about .section:not(.hero) {padding: 0;}
   .about .instablock {margin: 7rem 0;}
   .about .hero .logo-div {filter: invert(100%);}
   .info .copy-block {padding: 0;}
-  .about-intro img {width: 85%;}
+  .about-intro img {width: 100%;}
   .about .copy-block a {margin: auto;}
 
-  .discover .copy-block h2, .about .section p {font-size: 35px;margin-bottom: 15px;}
+  .discover .copy-block h2 {font-size: 35px;margin-bottom: 15px;}
   .discover .cartier {font-size: 50px;}
   .discover .copy-block {padding: 20px 12px;}
 
@@ -850,5 +853,5 @@ p, li:not(.drop-li) {
   }
 
   .hero-mag, .hero-ash {margin-top: 33px;}
-  .discover .section:not(.hero) {padding-top: 20px;}
+  .discover .section:not(.hero), .hero-about {padding-top: 20px;}
 }

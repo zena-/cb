@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import {useState} from 'react'
 
 import Image from "next/image";
-import aboutSix from '/public/about-six.png'
+import aboutSix from '/public/lineup.png'
 import logo from '/public/topNavLogo.png'
 import instaBl from '/public/insta-block.png'
 import instaPhone from '/public/insta-block-mobile.png'
@@ -45,22 +45,22 @@ export default function About() {
         </div>
       </section>
 
-      <section className="flex row about-intro section">
+      <section className="flex about-intro section">
       	<div className="copy-block">
-          <p className="">At Chili&nbsp;B, we&apos;re dedicated to elevating your everyday life. With a passion for wellness and a commitment to quality, we invite you to indulge in a journey of good taste and peace, where every sip nourishes the body and relaxes the mind.</p>
+          <p className="center">At Chili&nbsp;B, we&apos;re dedicated to elevating your everyday life. With a passion for wellness and a commitment to quality, we invite you to indulge in a journey of good taste and peace, where every sip nourishes the body and relaxes the mind.</p>
           <Link href="/info" className="">Learn More</Link>
         </div>
-        <Image src={aboutSix} alt="Chili B." width={420} />
-      </section>
-
-      <section className="instablock section">
-        <h1 className="red">We’re on a mission to<br/>chill with you </h1>
-        <Image src={instaBl} alt="Chili B." className="hide-md" />
-        <Image src={instaPhone} alt="Chili B." className="hide-lg" />
+        <Image src={aboutSix} alt="Chili B." width={820} />
       </section>
 
       <section className="about-outro section">
+        <h1 className="instablockH1">We’re on a mission to chill with you </h1>
         <p className="center">Chili&nbsp;Beverage was created with you in mind. We recognize the demands of the modern workweek, and we&apos;re dedicated to lifting you up & helping you relax. Let us be your companion in good time or stress. We&apos;re offering you a refreshing respite to help you power through.</p>
+      </section>
+      
+      <section className="instablock section">
+        <Image src={instaBl} alt="Chili B." className="hide-md" />
+        <Image src={instaPhone} alt="Chili B." className="hide-lg" />
       </section>
 
       <footer className="footer">
