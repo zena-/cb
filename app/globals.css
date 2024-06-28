@@ -95,6 +95,7 @@ main {
 .hero-about {
   background: url("../public/hero-about.png") no-repeat center center;
   background-size: cover;
+  height: 80vh;
 }
 .hero-info {
   background: url("../public/hero-info.png") no-repeat center center;
@@ -507,14 +508,15 @@ p, li:not(.drop-li) {
 .about-intro img {
 /*  align-self: center;*/
   margin: auto;
+  width: 100%;
 }
 .about-intro .med-text {
   font-size: 43px;
   line-height: 53px;
 }
+.about .copy-block {width: 100%;}
 
 .about-outro {
-  width: 60%;
   margin: 100px auto 50px;
 }
 .hero-about h1 {
@@ -805,7 +807,6 @@ p, li:not(.drop-li) {
   .about .instablock {margin: 7rem 0;}
   .about .hero .logo-div {filter: invert(100%);}
   .info .copy-block {padding: 0;}
-  .about-intro img {width: 100%;}
   .about .copy-block a {margin: auto;}
 
   .discover .copy-block h2 {font-size: 35px;margin-bottom: 15px;}
