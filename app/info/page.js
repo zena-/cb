@@ -56,7 +56,7 @@ export default function Info() {
 
       <section className="display infopage flex">
         <div className="copy-block notthis">
-          <h2 className="displayTitle">With Chili B. you're not just savoring <br/>a drink - you're embracing a <br/>lifestyle of opulent wellness</h2>
+          <h2 className="displayTitle">With Chili B. you&apos;re not just savoring <br/>a drink - you&apos;re embracing a <br/>lifestyle of opulent wellness</h2>
           <Link href="/shop" className="">Learn More</Link>
         </div>
       </section>
