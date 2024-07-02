@@ -37,13 +37,15 @@ export default function Home() {
         </div>
 
         <div className="linkOne flex">
-          <div className="drop" onClick={showClick}>Discover
+          {/*<div className="drop" onClick={showClick}>Discover
             <ul className={isDrop ? "show dropdown" : "dropdown"}>
               <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
               <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
             </ul>
-          </div>
-          <Link href="/about">About</Link>
+          </div>*/}
+          <Link href="/magnesium">Magnesium</Link>
+          <Link href="/ashwagandha">Ashwagandha</Link>
+          {/*<Link href="/about">About</Link>*/}
         </div>
       </nav>
 

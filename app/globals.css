@@ -909,4 +909,5 @@ p, li:not(.drop-li) {
     line-height: 35px;
   }
   .info .copy-block.notthis h2 br {display: none;}
+  nav a {font-size: 14px;}
 }
