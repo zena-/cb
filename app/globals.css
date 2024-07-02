@@ -120,7 +120,7 @@ main {
 }
 
 .hero-inner h1 {
-  font-size: 70px;
+  font-size: 64px;
   text-align: center;
   margin-top: 30px;
 }
@@ -180,7 +180,7 @@ nav.white-text {
   text-transform: uppercase;
   color: #ffffff;
 }
-.info .hero .logo-div {filter: invert(0%);}
+
 
 nav div {
   width: 33%;
@@ -198,11 +198,13 @@ nav div {
 .display {
   padding: 50px 0;
   width: 100vw;
-  background: url("../public/block3.png") no-repeat center center;
-  background-size: cover;
   justify-content: center;
   text-align: center;
   min-height: 550px;
+}
+.display:not(.infopage) {
+  background: url("../public/block3.png") no-repeat center center;
+  background-size: cover;
 }
 
 .display .title {
@@ -217,6 +219,7 @@ nav div {
 
 .displayTitle, .action h2, .flavor .tit {
   font-size: 36px;
+  line-height: 42px;
   margin-bottom: 15px;
   font-family: gothBold;
 }
@@ -528,13 +531,39 @@ p, li:not(.drop-li) {
   margin-top: 11rem;
   text-transform: uppercase;
 }
+
+.info .first {
+  max-width: 780px;
+  padding: 80px 0;
+  text-align: center;
+}
+.info .title {font-size: 36px; margin-bottom: 25px;}
+.info .first p:first-child {margin-bottom: 30px;}
 .info h2 {margin-bottom: 10px;}
 .info p {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 19px;
   margin-bottom: 10px;
+  font-family: 'gothLight';
 }
-.info .flex.row img,
+.info .section:not(.hero) {
+  width: 80%;
+  margin: 60px auto;
+}
+.info .flex.row img {
+  width: 50%;
+  object-fit: contain;
+  height: 100%;
+}
+.info .copy-block:not(.notthis) {
+  padding: 0 20px;
+  align-self: flex-start;
+}
+.display.infopage {
+  background: url("../public/infopage.png") no-repeat center center;
+  background-size: cover;
+}
+
 .discover .flex.row img:not(.fimg) {
   width: 50%;
   object-fit: contain;
@@ -855,4 +884,29 @@ p, li:not(.drop-li) {
 
   .hero-mag, .hero-ash {margin-top: 33px;}
   .discover .section:not(.hero), .hero-about {padding-top: 20px;}
+
+  .info .section:not(.hero) {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .info .copy-block:not(.notthis) {
+    padding: 0;
+  }
+  .info .copy-block, .info .flex.row img {width: 100%;}
+  .info .hero-inner { justify-content: flex-start;}
+  .info .hero-inner h1 {margin-top: 20px;}
+  .display.infopage {
+    background: url("../public/infopage-mobile.png") no-repeat center center;
+    background-size: cover;
+    justify-content: flex-end;
+  }
+  .info .copy-block.notthis {
+    padding: 0 20px;
+    align-self: flex-start;
+  }
+  .info .copy-block.notthis h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .info .copy-block.notthis h2 br {display: none;}
 }
