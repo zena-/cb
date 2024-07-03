@@ -110,9 +110,10 @@ main {
   background-size: cover;
 }
 
+.hero {height: 92vh;}
 .hero-inner {
   width: 100%;
-  height: 100vh;
+/*  height: 100vh;*/
   padding: 30px;
   margin-top: -30px;
   display: flex;
@@ -304,7 +305,7 @@ p, li:not(.drop-li) {
 
 /*.pour h2, */
 .copy-block a:hover {
-  background: #ffffff;
+  background: transparent;
   color: #212121;
 }
 
@@ -692,7 +693,7 @@ p, li:not(.drop-li) {
   .why .flex.inner img {
      height: auto; 
   }
-  .action.flex, .display.flex, .about-intro.flex, .info .flex:not(.footerMid) {gap: 40px;}
+/*  .action.flex, .display.flex, .about-intro.flex, .info .flex:not(.footerMid) {gap: 40px;}*/
   .hide-md {display: none;}
   .hide-lg {display: block;}
   .about-outro {margin-top: 50px;}
@@ -711,10 +712,6 @@ p, li:not(.drop-li) {
   .discover .hero p br {display: none;}
   .flex.instLink img {width: 25px; margin: 7px 0;}
 
-  .display .copy-block a:hover {
-    color: #ffffff;
-    background: #10A75A;
-  }
   .flex.row.img-right {margin-top: 34px;}
 }
 
@@ -824,7 +821,7 @@ p, li:not(.drop-li) {
   }
 
   .info .hero-inner h1, .mag .hero-inner h1, .ash .hero-inner h1 {
-    font-size: 38px;
+    font-size: 34px;
     line-height: 40px;
     margin-top: 100px;
   }
@@ -857,7 +854,7 @@ p, li:not(.drop-li) {
   .footer .flex-in a:first-child {margin-top: 20px;}
   .footer .flex-in a {padding: 0;}
 
-  .display {
+  .display:not(.infopage) {
     background: url("../public/block3-mobile.png") no-repeat center center;
     background-size: cover;
     min-height: 750px;
@@ -867,11 +864,14 @@ p, li:not(.drop-li) {
     background: url("../public/heroNew-mobile.png") no-repeat center center;
     background-size: cover;
   }
+  .hero-inner {height: 62vh;}
 
-  .hero-inner {
-    height: 82vh;
-/*    justify-content: center;*/
+   .main .hero-inner {
+    height: 75vh;
+    justify-content: center;
   }
+   
+
   .hero-home.section {
     padding: 30px 0 0;
   }
@@ -915,5 +915,33 @@ p, li:not(.drop-li) {
   .linkOne {
     gap: 11px;
     margin-left: 25px;
+  }
+
+  .info .copy-block a {
+    background: transparent;
+    color: #212121;
+    font-weight: 700;
+  }
+
+  .hero-mag {
+    background-size: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .main .hero-inner {
+    height: 66vh;
+  }
+
+  .imgBox.orange,
+  .imgBox.green,
+  .imgBox.purple,
+  .imgBox.pink,
+  .imgBox.red,
+  .imgBox.yellow {background-size: 14rem;}
+
+  nav a {
+    font-size: 12px;
+    align-self: center;
   }
 }

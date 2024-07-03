@@ -51,7 +51,7 @@ export default function Home() {
 
       <section className="hero hero-home section">
         <div className="hero-inner">
-          <h1 className="cartier black">Sparkling Water</h1>
+          <h1 className="cartier black">Sparkling&nbsp;Water</h1>
           <p className="black">Discover a new way to nourish <br/>your body and mind</p>
         </div>
         <div className="lineup"></div>
