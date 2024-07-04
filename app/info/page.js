@@ -21,7 +21,6 @@ export default function Info() {
 	return (
     <main className="info ">
       <nav className="flex">
-      <nav className="flex">
         <div>
           <div className="logo-div">
             <Link href="/">
