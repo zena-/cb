@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Chili Beverage",
-  description: "Calming Functional Sparkling Flavored Water. Your companion in good time or stress.",
+  description: "Explore Chili Beverage's functional drinks enriched with natural ingredients like Ashwagandha for enhanced wellness and relaxation.",
+  openGraph: {images: "/public/harmR.png"}
 };
 
 export default function RootLayout({ children }) {
