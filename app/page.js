@@ -13,8 +13,7 @@ import passion from '../public/passionNew.png'
 import logoFooter from '../public/logoFooter.png'
 import tagFooter from '../public/tag-footer.png'
 import mocktail from '../public/mocktail-sand.webp'
-import mail from '../public/mail-icon.png'
-import instIcon from '../public/insta-icon.png'
+import instIcon from '../public/insta-icon.svg'
 import flowR from '../public/harmR.png'
 import flowL from '../public/harmL.png'
 
@@ -43,8 +42,9 @@ export default function Home() {
               <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
             </ul>
           </div>*/}
-          <Link href="/magnesium">Magnesium</Link>
-          <Link href="/ashwagandha">Ashwagandha</Link>
+          <Link href="/magnesium" className="no-show">Magnesium</Link>
+          <Link href="/ashwagandha" className="no-show">Ashwagandha</Link>
+          <Link href="/shop" className="box">Shop</Link>
           {/*<Link href="/about">About</Link>*/}
         </div>
       </nav>

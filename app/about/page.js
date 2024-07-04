@@ -29,13 +29,9 @@ export default function About() {
         </div>
 
         <div className="linkOne flex">
-          <div className="drop" onClick={showClick}>Discover
-            <ul className={isDrop ? "show dropdown" : "dropdown"}>
-              <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
-              <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
-            </ul>
-          </div>
-          <Link href="/about">About</Link>
+          <Link href="/magnesium" className="no-show">Magnesium</Link>
+          <Link href="/ashwagandha" className="no-show">Ashwagandha</Link>
+          <Link href="/shop" className="box">Shop</Link>
         </div>
       </nav>
     	<section className="hero hero-about hero-white section">

@@ -13,13 +13,14 @@ import lemonbalm from '/public/lemonbalm.png'
 import rosehips from '/public/rosehips.png'
 import mint from '/public/mint.png'
 import mail from '/public/mail-icon.png'
-import instIcon from '/public/insta-icon.png'
+import instIcon from '/public/insta-icon.svg'
 
 export default function Info() {
   const [isDrop, setIsDrop] = useState(false)
   const showClick = event => setIsDrop(current => !current)
 	return (
     <main className="info ">
+      <nav className="flex">
       <nav className="flex">
         <div>
           <div className="logo-div">
@@ -30,15 +31,9 @@ export default function Info() {
         </div>
 
         <div className="linkOne flex">
-          {/*<div className="drop" onClick={showClick}>Discover
-            <ul className={isDrop ? "show dropdown" : "dropdown"}>
-              <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
-              <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
-            </ul>
-          </div>*/}
-          <Link href="/magnesium">Magnesium</Link>
-          <Link href="/ashwagandha">Ashwagandha</Link>
-          {/*<Link href="/about">About</Link>*/}
+          <Link href="/magnesium" className="no-show">Magnesium</Link>
+          <Link href="/ashwagandha" className="no-show">Ashwagandha</Link>
+          <Link href="/shop" className="box">Shop</Link>
         </div>
       </nav>
     	<section className="hero hero-info notthis section">

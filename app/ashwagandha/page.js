@@ -14,7 +14,7 @@ import twolimes from '/public/twolimes.png'
 import limecoc from '/public/lime-cocktail.png'
 import twoteas from '/public/two-teas.png'
 import teac from '/public/tea-cocktail.png'
-import instIcon from '/public/insta-icon.png'
+import instIcon from '/public/insta-icon.svg'
 
 export default function Ashwagandha() {
   const [isDrop, setIsDrop] = useState(false)
@@ -31,15 +31,9 @@ export default function Ashwagandha() {
         </div>
 
         <div className="linkOne flex">
-          {/*<div className="drop" onClick={showClick}>Discover
-            <ul className={isDrop ? "show dropdown" : "dropdown"}>
-              <li className="pink drop-li"><Link href="/magnesium">Magnesium</Link></li>
-              <li className="purple  drop-li"><Link href="/ashwagandha">Ashwagandha</Link></li>
-            </ul>
-          </div>*/}
-          <Link href="/magnesium">Magnesium</Link>
-          <Link href="/ashwagandha">Ashwagandha</Link>
-          {/*<Link href="/about">About</Link>*/}
+          <Link href="/magnesium" className="no-show">Magnesium</Link>
+          <Link href="/ashwagandha" className="no-show">Ashwagandha</Link>
+          <Link href="/shop" className="box">Shop</Link>
         </div>
       </nav>
 
