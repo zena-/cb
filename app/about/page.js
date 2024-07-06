@@ -53,7 +53,7 @@ export default function About() {
         <h1 className="instablockH1">We’re on a mission to chill with you </h1>
         <p className="center">Chili&nbsp;Beverage was created with you in mind. We recognize the demands of the modern workweek, and we&apos;re dedicated to lifting you up & helping you relax. Let us be your companion in good time or stress. We&apos;re offering you a refreshing respite to help you power through.</p>
       </section>
-      
+
       <section className="instablock section">
         <Image src={instaBl} alt="Chili B." className="hide-md" />
         <Image src={instaPhone} alt="Chili B." className="hide-lg" />
@@ -73,7 +73,7 @@ export default function About() {
         <div className="flex">
           <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
-            <Link href="https://instagram.com/chili_beverage" target="_blank" className="">
+            <Link href="https://instagram.com/chilibeverage" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
             <Link href="#" className="">

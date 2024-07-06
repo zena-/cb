@@ -26,6 +26,8 @@ import pink from '/public/can-apple2.png'
 import yellow from '/public/can-lemon2.png'
 import purple from '/public/can-tea2.png'
 
+import guavaRec from '/public/guavaRec.png'
+
 import cranberry from '/public/cranberry.png'
 import orangeProud from '/public/orangeProud.png'
 import lime from '/public/lime.png'
@@ -163,7 +165,7 @@ export default function About() {
         </div>
       </nav>
 
-      <section className="product flex row">
+      <section className="product flex row not-tablet">
         <div className="prod-img">
           <Image src={prod} alt="Chili B product image" width={580} />
         </div>
@@ -172,14 +174,14 @@ export default function About() {
           <h2 className="prod-flavor med-text">{flavor}</h2>
 
           <div className="details">
-            <div className="flex row d-gap">
+            <div className="flex row d-gap not-tablet">
               <p className="label-type">Functionality</p>
               <div className="desc-type">
                 <p className="">{func}</p>
               </div>
             </div>
 
-            <div className="flex row d-gap">
+            <div className="flex row d-gap not-tablet">
               <p className="label-type">Case</p>
               <RadioGroup isDisabled className="flex row packs desc-type">
                 <Radio value="4 pack" >4&nbsp;pack</Radio>
@@ -189,26 +191,26 @@ export default function About() {
               </RadioGroup>
             </div>
 
-            <div className="flex row d-gap">
+            <div className="flex row d-gap not-tablet">
               <p className="label-type">Variety Packs</p>
               <RadioGroup isDisabled className="flex row packs case desc-type">
-                <Radio value="magnesium pack">Magnesium&nbsp;case</Radio>
-                <Radio value="Ashwagandha pack">Ashwagandha&nbsp;case</Radio>
+                <Radio value="magnesium pack">Magnesium&nbsp;<span className="hide-mid">case</span></Radio>
+                <Radio value="Ashwagandha pack">Ashwagandha&nbsp;<span className="hide-mid">case</span></Radio>
                 <Radio value="All pack">Best&nbsp;sellers</Radio>
               </RadioGroup>
             </div>
 
-            <div className="flex row d-gap">
+            <div className="flex row d-gap not-tablet">
               <p className="label-type">Quantity</p>
-              <div className="flex row countBox desc-type">
+              <div className="flex row not-tablet countBox desc-type">
                 <button className="" onClick={minus}>-</button>
                 <p className="med-text">{count}</p>
                 <button className="" onClick={plus}>+</button>
               </div>
             </div>
 
-            <div className="flex row d-gap">
-              <p className="baseline label-type">Flavor</p>
+            <div className="flex row d-gap not-tablet">
+              <p className="baseline label-type">Flavors</p>
               <div className="cans-wrap">
                 <RadioGroup isDisabled className="flex row prod-cans desc-type">
                   <Radio onClick={newCranberry} className="red" value="red">
@@ -239,8 +241,8 @@ export default function About() {
       </section>
 
       <section className="pdp-info">
-        <div className="pdp product flex row prod-info">
-          <div className="flex column">
+        <div className="pdp product flex row">
+          <div className="flex column half-width">
             <h2 className="prod-flavor ">{flavor}</h2>
             <p>{flavorDesc}</p>
             <ul>
@@ -251,10 +253,12 @@ export default function About() {
             <p>Each can is crafted without additives, ensuring a pure, natural taste that not only refreshes but also nurtures your body and mind.</p>
           </div>
 
-          <div></div>
+          <div className="align-content half-width">
+            {/*<Image src={guavaRec} alt="Chili B product image" className="center-img" width={880} />*/}
+          </div>
         </div>
 
-        <div className="icons flex row">
+        <div className="icons flex row not-tablet">
           <div className="icon">
             <Image src={nosugar} alt="Chili B." width={90} />
             <p>no sugar</p>
@@ -297,7 +301,7 @@ export default function About() {
         <div className="flex">
           <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
-            <Link href="https://instagram.com/chili_beverage" target="_blank" className="">
+            <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
             <Link href="#" className="">

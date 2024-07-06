@@ -584,7 +584,10 @@ p, li {
   font-size: 36px;
 }
 .discover .med-text {font-size: 26px}
-.discover .med-text.greytext {color:#EFEFEF;}
+.discover .med-text.greytext {
+  color:#EFEFEF;
+  line-height: 40px;
+}
 
 .grey {color: grey;}
 
@@ -699,7 +702,7 @@ p, li {
 
 .pdp-info {
   background: url("../public/pdp-info.png") no-repeat right center;
-  background-size: initial;
+  background-size: auto;
   padding: 30px;
 }
 
@@ -711,9 +714,13 @@ p, li {
 .icon p {text-align: center;}
 
 .pdp li, .pdp ul {
-  margin-bottom: 5px;
-  list-style: inside;
+  margin-bottom: 12px;
+  list-style: circle;
+  margin-left: 7px;
 }
+
+.half-width {width: 50%;}
+.center-img {margin: auto;}
 
 .pdp .prod-flavor {text-align: start;}
 
@@ -722,6 +729,7 @@ p, li {
 .relative.prod-cans {position: relative;}
 .prod-cans .flex {width: 34rem;}
 .gap-2 {gap: 2px;}
+.align-content {align-content:center;}
 
 @media (min-width: 1988px) {
   .why .flex.inner img {
@@ -763,12 +771,23 @@ p, li {
     margin: 29px 0;
     font-size: 42px;
   }
+
+  .pdp-info {
+    background-position: center;
+    width: 85%;
+    margin: auto;
+  }
+  .footer .flex {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 1030px) {
   .lastBlock {height: auto;}
 
   .action,
-  .flex.row,
+  .flex.row:not(.not-tablet),
   .img-left {
     flex-direction: column;
   }
@@ -825,13 +844,17 @@ p, li {
     line-height: 65px;
     margin-top: 130px;
   }
-  .linkOne {gap: 50px;}
+  nav div {width: 43%;}
   .discover .flex.row img {margin: auto;}
 
   .discover .hero p br {display: none;}
   .flex.instLink img {width: 25px; margin: 7px 0;}
 
   .flex.row.img-right {margin-top: 34px;}
+  .prod-info, .prod-img {max-width: 50%;}
+  .hide-mid {display: none;}
+  .packs label {padding: 5px 10px;}
+  .prod-cans label {width: 9rem;}
 }
 
 @media (max-width: 830px) {
@@ -1067,7 +1090,7 @@ p, li {
 
   .flex.row.countBox,
   .flex.row.prod-cans {flex-direction: row;}
-  .prod-cans {width: 100%;}
+  .prod-cans, .half-width {width: 100%;}
 
   .flex.row.icons {
     flex-direction: row;
@@ -1080,7 +1103,7 @@ p, li {
     height: 50px;
   }
   .case .flex-wrap {flex-direction: column;}
-  .prod-cans label {width: 12rem;}
+/*  .prod-cans label {width: 12rem;}*/
   .buyNow {width: 100%;}
   .ops.active {margin: 0 auto;}
   .hero {height: 88vh;}
@@ -1093,6 +1116,8 @@ p, li {
   .imgBox.pink,
   .imgBox.red,
   .imgBox.yellow {background-size: 12rem;}
+
+  .product {flex-direction: column;}
 }
 
 @media (max-width: 380px) {

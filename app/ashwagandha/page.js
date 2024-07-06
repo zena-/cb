@@ -224,7 +224,7 @@ export default function Ashwagandha() {
         <div className="flex">
           <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
-            <Link href="https://instagram.com/chili_beverage" target="_blank" className="">
+            <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />
             </Link>
             <Link href="#" className="">
