@@ -254,33 +254,36 @@ export default function About() {
           </div>
 
           <div className="align-content half-width">
-            {/*<Image src={guavaRec} alt="Chili B product image" className="center-img" width={880} />*/}
+            {/*<video width="520" height="400" controls autoPlay loop muted playsInline preload="auto">
+              <source src="/public/Chili_B_2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>*/}
           </div>
         </div>
 
         <div className="icons flex row not-tablet">
           <div className="icon">
-            <Image src={nosugar} alt="Chili B." width={90} />
+            <Image src={nosugar} alt="Chili B." width={90} height={90} />
             <p>no sugar</p>
           </div>
           <div className="icon">
-            <Image src={vegan} alt="Chili B." width={90} />
+            <Image src={vegan} alt="Chili B." width={90} height={90} />
             <p>vegan</p>
           </div>
           <div className="icon">
-            <Image src={fruit} alt="Chili B." width={90} />
+            <Image src={fruit} alt="Chili B." width={90} height={90} />
             <p>real fruit</p>
           </div>
           <div className="icon">
-            <Image src={gmo} alt="Chili B." width={90} />
+            <Image src={gmo} alt="Chili B." width={90} height={90} />
             <p>non gmo</p>
           </div>
           <div className="icon">
-            <Image src={organic} alt="Chili B." width={90} />
+            <Image src={organic} alt="Chili B." width={90} height={90} />
             <p>organic</p>
           </div>
           <div className="icon">
-            <Image src={mood} alt="Chili B." width={90} />
+            <Image src={mood} alt="Chili B." width={90} height={90} />
             <p>mood</p>
           </div>
         </div>
@@ -302,7 +305,7 @@ export default function About() {
           <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
-              <Image src={instIcon} alt="Chili B." width={19} />
+              <Image src={instIcon} alt="Chili B." width={19} height={12} />
             </Link>
             <Link href="#" className="">
               <p>Privacy&nbsp;Policy</p>

@@ -710,8 +710,14 @@ p, li {
   justify-content: space-evenly;
   align-items: center;
 }
-.icon img {margin: 7px auto;}
-.icon p {text-align: center;}
+.icon img {
+  margin: 7px auto;
+  height: 90px;
+}
+.icon p {
+  text-align: center;
+  margin: 15px 0 0;
+}
 
 .pdp li, .pdp ul {
   margin-bottom: 12px;
@@ -723,6 +729,8 @@ p, li {
 .center-img {margin: auto;}
 
 .pdp .prod-flavor {text-align: start;}
+
+.pdp.product video {margin: auto;}
 
 .column {flex-direction: column;}
 
@@ -1118,6 +1126,11 @@ p, li {
   .imgBox.yellow {background-size: 12rem;}
 
   .product {flex-direction: column;}
+
+  .flex.row.icons {
+    padding-bottom: 34px;
+    background: color(srgb 0.9686 0.9686 0.9687);
+  }
 }
 
 @media (max-width: 380px) {
