@@ -38,8 +38,8 @@ export default function Info() {
     	<section className="hero hero-info notthis section">
         <div className="hero-inner">
         
-          <h1 className="bold cap">where wellness meets refreshment</h1>
-          <p>Immerse yourself in the essence of indulgence as you discover <br/>our meticulously formulated functional beverage.</p>
+          <h1 className="bold cap">Explore the benefits <br/>of our ingredient</h1>
+          {/*<p>Explore the quality and benefits of every ingredient in our beverages.</p>*/}
         </div>
       </section>
 
@@ -50,7 +50,7 @@ export default function Info() {
 
       <section className="display infopage flex">
         <div className="copy-block notthis">
-          <h2 className="displayTitle">With Chili B. you&apos;re not just savoring <br/>a drink - you&apos;re embracing a <br/>lifestyle of opulent wellness</h2>
+          <h2 className="displayTitle">With Chili B. you&apos;re not just savoring a drink - you&apos;re embracing a lifestyle of opulent wellness</h2>
           <Link href="/shop" className="">Learn More</Link>
         </div>
       </section>
