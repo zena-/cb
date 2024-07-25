@@ -51,8 +51,8 @@ export default function Home() {
 
       <section className="hero hero-home section">
         <div className="hero-inner">
-          <h1 className="cartier black">Sparkling&nbsp;Water</h1>
-          <p className="black">Discover a new way to nourish <br/>your body and mind</p>
+          <h1 className="bold cap black">where wellness <br/>meets refreshment</h1>
+          <p className="black">Immerse yourself in the essence of indulgence as you discover <br/>our meticulously formulated functional beverage.</p>
         </div>
         <div className="lineup"></div>
       </section>
