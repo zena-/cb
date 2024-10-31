@@ -71,7 +71,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex">
-          <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
+          <p className="four-zero">Chili Beverage © 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://instagram.com/chilibeverage" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />

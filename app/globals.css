@@ -340,7 +340,7 @@ p, li {
   gap: 30px;
   align-items: baseline;
 }
-.flavor {padding: 90px 5px;}
+.flavor {padding: 90px 5px 130px;}
 .flavor-option  h2 {
   font-family: 'goth';
   font-size: 25px;
@@ -383,12 +383,13 @@ p, li {
 .ops div:hover p {
   display: block;
   width: 90%;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   margin: 20px auto;
   text-transform: capitalize;
   font-family: 'gothLight';
   color: grey;
+  text-align: center;
 }
 
 .imgBox {

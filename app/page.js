@@ -67,29 +67,29 @@ export default function Home() {
           <div className={isAsh ? 'active ash flex ops' : 'ops'}>
             <div className="imgBox">
               <Link href="/ashwagandha#orange" className="imgBox orange"></Link>
-              <p className=" ingredients med-text ">Carbonated water, blood orange juice, ashwagandha</p>
+              <p className=" ingredients med-text ">Carbonated Water, Organic Orange Juice Concentrate, Orange Extract, Organic Lemon Juice Concentrate, Ashwagandha Root Extract.</p>
             </div>
             <div className="imgBox">
               <Link href="/ashwagandha#lime" className="imgBox green"></Link>
-              <p className=" ingredients med-text ">Carbonated water, lime juice, mint, lemon balm, ashwagandha</p>
+              <p className=" ingredients med-text ">Carbonated Water, Organic Apple Juice Concentrate, Mint Extract, Organic Lime Juice Concentrate, Ashwagandha Root Extract, Lime Extract.</p>
             </div>
             <div className="imgBox">
               <Link href="/ashwagandha#hibiscus" className="imgBox purple"></Link>
-              <p className=" ingredients med-text ">Carbonated water, hibiscus tea, ashwagandha</p>
+              <p className=" ingredients med-text ">Carbonated Water, Organic Apple Juice Concentrate, Organic Peach Juice Concentrate, Hibiscus Extract, Organic Lemon Juice Concentrate, Peach Extract, Ashwagandha Root Extract.</p>
             </div>
           </div>
           <div className={isAsh ? 'ops' : 'active mag flex ops'}>
             <div className="imgBox">
               <Link href="/magnesium#apple" className="imgBox pink"></Link>
-              <p className=" ingredients med-text">Carbonated water, apple juice, guava puree, magnesium</p>
+              <p className=" ingredients med-text">Carbonated Water, Organic Apple Juice Concentrate, Guava Extract, Organic Lemon Juice Concentrate, Magnesium Citrate.</p>
             </div>
             <div className="imgBox">
               <Link href="/magnesium#cranberry" className="imgBox red"></Link>
-              <p className=" ingredients med-text">Carbonated water, cranberry juice, rose hips, magnesium</p>
+              <p className=" ingredients med-text">Carbonated Water, Organic Apple Juice Concentrate, Organic Cranberry Juice Concentrate, Cranberry Extract, Magnesium Citrate, Organic Lime Juice Concentrate, Rose Extract.</p>
             </div>
             <div className="imgBox">
               <Link href="/magnesium#pineapple" className="imgBox yellow"></Link>
-              <p className="ingredients med-text">Carbonated water, pineapple juice, ginger, lemon balm, magnesium</p>
+              <p className="ingredients med-text">Carbonated Water, Organic Orange Juice Concentrate, Organic Lemon Juice Concentrate, Magnesium Citrate, Ginger Extract, Lemon Extract.</p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex">
-          <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
+          <p className="four-zero">Chili Beverage © 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />

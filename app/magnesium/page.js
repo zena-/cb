@@ -64,7 +64,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a glass or pitcher, combine the Cranberry & Rose Hips sparkling water, cranberry juice, orange juice, fresh lime juice, and honey (if using). Stir until well mixed.</li>
+              <li>In a glass or pitcher, combine Chili Beverage's Cranberry & Rose Hips sparkling water, cranberry juice, orange juice, fresh lime juice, and honey (if using). Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the Cranberry Sparkler over the ice.</li>
               <li>Garnish each glass with orange slices and cranberries.</li>
@@ -90,7 +90,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a cocktail shaker, combine the Chili&nbsp;B. Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice.</li>
+              <li>In a cocktail shaker, combine Chili Beverage's Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice.</li>
               <li>Add ice cubes to the shaker and shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
@@ -101,14 +101,14 @@ export default function Magnesium() {
       </section>
 
       <section className="section" id="pineapple">
-        <h2 className="bold center">Pineapple & Ginger</h2>
+        <h2 className="bold center">Lemon & Ginger</h2>
         <div className="flex row img-left section">
           <Image src={twopin} alt="Chili B." width={580} />
           <div className="copy-block">
             <h2 className="med-text"> Pineapple Ginger Citrus Lemonade</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 cup Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water</li>
+              <li>1 cup Chili&nbsp;B. Lemon & Ginger sparkling water</li>
               <li>1/2 cup pineapple juice</li>
               <li>1 tablespoon fresh lemon juice</li>
               <li>1 tablespoon honey or agave syrup (adjust to taste)</li>
@@ -118,7 +118,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a pitcher, combine the Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water, pineapple juice, fresh lemon juice, and honey or agave syrup. Stir until well mixed.</li>
+              <li>In a pitcher, combine Chili Beverage's Lemon & Ginger sparkling water, pineapple juice, fresh lemon juice, and honey or agave syrup. Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the pineapple ginger lemonade over the ice.</li>
               <li>Garnish each glass with a slice of lemon and pineapple.</li>
@@ -133,7 +133,7 @@ export default function Magnesium() {
             <h2 className="med-text">Tropical Ginger Spritzer</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 can Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water</li>
+              <li>1 can Chili&nbsp;B. Lemon & Ginger sparkling water</li>
               <li>2 oz white rum</li>
               <li>1 oz pineapple juice</li>
               <li>1 tablespoon fresh lemon juice</li>
@@ -144,7 +144,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a cocktail shaker, combine the Chili&nbsp;B. Pineapple, Lemon, & Ginger sparkling water, white rum, pineapple juice, fresh lemon juice, and ginger syrup or ginger liqueur. Add ice cubes to the shaker.</li>
+              <li>In a cocktail shaker, combine Chili Beverage's Lemon & Ginger sparkling water, white rum, pineapple juice, fresh lemon juice, and ginger syrup or ginger liqueur. Add ice cubes to the shaker.</li>
               <li>Shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
@@ -171,7 +171,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a glass, combine the Apple & Guava sparkling water, fresh lime juice, and honey (if using). Stir gently to mix.</li>
+              <li>In a glass, combine Chili Beverage's Apple & Guava sparkling water, fresh lime juice, and honey (if using). Stir gently to mix.</li>
               <li>Add ice cubes to the glass.</li>
               <li>Garnish with thinly sliced apple and guava.</li>
               <li>Garnish with fresh orange slices.</li>
@@ -220,7 +220,7 @@ export default function Magnesium() {
           </div>
         </div>
         <div className="flex">
-          <p className="four-zero">© 2024 ALL RIGHTS RESERVED.</p>
+          <p className="four-zero">Chili Beverage © 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />
