@@ -16,6 +16,7 @@ import mocktail from '../public/mocktail-sand.webp'
 import instIcon from '../public/insta-icon.svg'
 import flowR from '../public/harmR.png'
 import flowL from '../public/harmL.png'
+import mood from '/public/mood.svg'
 
 export default function Home() {
   // const [isMag, setIsMag] = useState(false)
@@ -59,7 +60,7 @@ export default function Home() {
       
       <section className="flavor section palms">
         <div className="mid">
-          <h2 className="center uppercase tit">Indulge in Our Flavorful World</h2>
+          <h2 className="center uppercase tit nowrap-title">Find your chill<Image src={mood} alt="Chili B." width={30} height={30} /></h2>
           <div className="flex flavor-option">
             <div className={isAsh ? '' : 'active'} onClick={handleClick}><h2>Magnesium</h2></div>
             <div className={isAsh ? 'active' : ''} onClick={handleClick}><h2>Ashwagandha</h2></div>
