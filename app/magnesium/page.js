@@ -64,7 +64,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a glass or pitcher, combine Chili Beverage&apos;s Cranberry & Rose Hips sparkling water, cranberry juice, orange juice, fresh lime juice, and honey (if using). Stir until well mixed.</li>
+              <li>In a glass or pitcher, combine Chili&nbsp;B. Cranberry & Rose Hips sparkling water, cranberry juice, orange juice, fresh lime juice, and honey (if using). Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the Cranberry Sparkler over the ice.</li>
               <li>Garnish each glass with orange slices and cranberries.</li>
@@ -90,7 +90,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a cocktail shaker, combine Chili Beverage&apos;s Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice.</li>
+              <li>In a cocktail shaker, combine Chili&nbsp;B. Cranberry & Rose Hips sparkling water, vodka, triple sec or orange liqueur, cranberry juice, and fresh lime juice.</li>
               <li>Add ice cubes to the shaker and shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
@@ -118,7 +118,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a pitcher, combine Chili Beverage&apos;s Lemon & Ginger sparkling water, pineapple juice, fresh lemon juice, and honey or agave syrup. Stir until well mixed.</li>
+              <li>In a pitcher, combine Chili&nbsp;B. Lemon & Ginger sparkling water, pineapple juice, fresh lemon juice, and honey or agave syrup. Stir until well mixed.</li>
               <li>Fill glasses with ice cubes.</li>
               <li>Pour the pineapple ginger lemonade over the ice.</li>
               <li>Garnish each glass with a slice of lemon and pineapple.</li>
@@ -144,7 +144,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a cocktail shaker, combine Chili Beverage&apos;s Lemon & Ginger sparkling water, white rum, pineapple juice, fresh lemon juice, and ginger syrup or ginger liqueur. Add ice cubes to the shaker.</li>
+              <li>In a cocktail shaker, combine Chili&nbsp;B. Lemon & Ginger sparkling water, white rum, pineapple juice, fresh lemon juice, and ginger syrup or ginger liqueur. Add ice cubes to the shaker.</li>
               <li>Shake well until chilled.</li>
               <li>Fill a glass with ice cubes.</li>
               <li>Strain the cocktail into the prepared glass.</li>
@@ -171,7 +171,7 @@ export default function Magnesium() {
 
             <p className="med-text title">Instructions:</p>
             <ul>
-              <li>In a glass, combine Chili Beverage&apos;s Apple & Guava sparkling water, fresh lime juice, and honey (if using). Stir gently to mix.</li>
+              <li>In a glass, combine Chili&nbsp;B. Apple & Guava sparkling water, fresh lime juice, and honey (if using). Stir gently to mix.</li>
               <li>Add ice cubes to the glass.</li>
               <li>Garnish with thinly sliced apple and guava.</li>
               <li>Garnish with fresh orange slices.</li>
@@ -199,7 +199,7 @@ export default function Magnesium() {
             <p className="med-text title">Instructions:</p>
             <ul>
               <li>If desired, rim the glass with salt or sugar: Rub the rim of a glass with a lime wedge, then dip the rim into a shallow plate of salt or sugar to coat.</li>
-              <li>In a cocktail shaker, combine Chili Beverage&apos;s Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice.</li>
+              <li>In a cocktail shaker, combine Chili&nbsp;B. Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice.</li>
               <li>Add ice to the shaker and shake well until chilled.</li>
               <li>Strain the mixture into the prepared glass.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
@@ -220,7 +220,7 @@ export default function Magnesium() {
           </div>
         </div>
         <div className="flex">
-          <p className="four-zero">Chili Beverage © 2024 ALL RIGHTS RESERVED.</p>
+          <p className="four-zero">Chili B. © 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} />

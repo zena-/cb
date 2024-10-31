@@ -171,7 +171,7 @@ export default function About() {
         </div>
 
         <div className="prod-info">
-          <h2 className="prod-flavor med-text">Chili Beverage: <br/>{flavor}</h2>
+          <h2 className="prod-flavor med-text">{flavor}</h2>
 
           <div className="details">
             <div className="flex row d-gap not-tablet">
@@ -302,7 +302,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex">
-          <p className="four-zero">Chili Beverage © 2024 ALL RIGHTS RESERVED.</p>
+          <p className="four-zero">Chili B. © 2024 ALL RIGHTS RESERVED.</p>
           <div className="flex-in six-zero">
             <Link href="https://www.instagram.com/chilibeverage/" target="_blank" className="">
               <Image src={instIcon} alt="Chili B." width={19} height={12} />
