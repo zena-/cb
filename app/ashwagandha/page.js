@@ -66,7 +66,7 @@ export default function Ashwagandha() {
               <li>Fill a glass half way with ice cubes.</li>
               <li>In a separate small bowl, mix together the freshly squeezed orange juice and honey until well combined.</li>
               <li>Pour the sweetened orange juice mixture into the glass over the ice.</li>
-              <li>Pour Chili Beverage's blood orange sparkling water over the juice&nbsp;mixture.</li>
+              <li>Pour Chili Beverage&apos;s blood orange sparkling water over the juice&nbsp;mixture.</li>
               <li>Gently stir to combine the ingredients.</li>
               <li>Garnish with a slice of blood orange.</li>
             </ul>
@@ -80,7 +80,7 @@ export default function Ashwagandha() {
             <h2 className="med-text">Blood Orange Spritz</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>12 oz Chili Beverage's blood orange sparkling water</li>
+              <li>12 oz Chili Beverage&apos;s blood orange sparkling water</li>
               <li>4 oz prosecco or sparkling wine</li>
               <li>Ice cubes</li>
               <li>Blood orange slice, for garnish</li>
@@ -106,7 +106,7 @@ export default function Ashwagandha() {
             <h2 className="med-text">Mojito Mocktail</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 can (12 oz) of Chili Beverage's lime and mint sparkling water</li>
+              <li>1 can (12 oz) of Chili Beverage&apos;s lime and mint sparkling water</li>
               <li>2-3 fresh mint leaves</li>
               <li>1 tablespoon of freshly squeezed lime juice</li>
               <li>1 tablespoon of honey </li>
@@ -132,7 +132,7 @@ export default function Ashwagandha() {
             <h2 className="med-text">Lime Mint Sparkler</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 can (12 oz) of Chili Beverage's lime and mint sparkling water</li>
+              <li>1 can (12 oz) of Chili Beverage&apos;s lime and mint sparkling water</li>
               <li>1-2 oz vodka or gin (optional)</li>
               <li>Fresh lime slices</li>
               <li>Fresh mint leaves</li>
@@ -159,7 +159,7 @@ export default function Ashwagandha() {
             <h2 className="med-text">Hibiscus Citrus Refresher:</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 can (12 oz) of Chili Beverage's hibiscus tea sparkling water</li>
+              <li>1 can (12 oz) of Chili Beverage&apos;s hibiscus tea sparkling water</li>
               <li>Juice of 1/2 a lime</li>
               <li>Juice of 1/2 a lemon</li>
               <li>1 tablespoon of honey (adjust to taste)</li>
@@ -186,7 +186,7 @@ export default function Ashwagandha() {
             <h2 className="med-text">Hibiscus Sparkling Sangria:</h2>
             <p className="med-text title">Ingredients:</p>
             <ul>
-              <li>1 can (12 oz) of Chili Beverage's hibiscus sparkling water</li>
+              <li>1 can (12 oz) of Chili Beverage&apos;s hibiscus sparkling water</li>
               <li>4 oz red wine (such as a fruity red wine like Merlot or Cabernet Sauvignon)</li>
               <li>1 oz brandy</li>
               <li>1/2 oz orange liqueur (such as triple sec or Cointreau)</li>
