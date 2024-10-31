@@ -199,7 +199,7 @@ export default function Magnesium() {
             <p className="med-text title">Instructions:</p>
             <ul>
               <li>If desired, rim the glass with salt or sugar: Rub the rim of a glass with a lime wedge, then dip the rim into a shallow plate of salt or sugar to coat.</li>
-              <li>In a cocktail shaker, combine the Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice.</li>
+              <li>In a cocktail shaker, combine Chili Beverage&apos;s Apple & Guava drink, tequila, triple sec or orange liqueur, and fresh lime juice.</li>
               <li>Add ice to the shaker and shake well until chilled.</li>
               <li>Strain the mixture into the prepared glass.</li>
               <li>Garnish with additional fresh fruit slices, if desired.</li>
