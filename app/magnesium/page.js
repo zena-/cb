@@ -25,7 +25,7 @@ export default function Magnesium() {
         <div>
           <div className="logo-div">
             <Link href="/">
-              <Image src={logo} alt="Chili B." width={115} height={24} />
+              <Image src={logo} alt="Chili B." width={150} />
             </Link>
           </div>
         </div>

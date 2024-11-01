@@ -17,6 +17,8 @@ import instIcon from '../public/insta-icon.svg'
 import flowR from '../public/harmR.png'
 import flowL from '../public/harmL.png'
 import mood from '/public/mood.svg'
+import moon from '/public/moon.png'
+import sun from '/public/sun.png'
 
 export default function Home() {
   // const [isMag, setIsMag] = useState(false)
@@ -31,7 +33,7 @@ export default function Home() {
         <div>
           <div className="logo-div">
             <Link href="/">
-              <Image src={logo} alt="Chili B." width={115} height={24} />
+              <Image src={logo} alt="Chili B." width={150} />
             </Link>
           </div>
         </div>
@@ -60,10 +62,11 @@ export default function Home() {
       
       <section className="flavor section palms">
         <div className="mid">
-          <h2 className="center uppercase tit nowrap-title">Find your chill<Image src={mood} alt="Chili B." width={30} height={30} /></h2>
+          <h2 className="center uppercase tit nowrap-title">Find your Perfect&nbsp;chill {isAsh ? <Image src={sun} alt="Chili B." className="hide-lg" width={40} height={19} /> : <Image src={moon} alt="Chili B." className="hide-lg" width={40} height={19} />} <Image src={mood} alt="Chili B." width={30} height={30} /></h2>
+          <div className="flavor-subtext">{isAsh ? <Image src={sun} alt="Chili B." className="hide-md" width={40} height={19} /> : <Image src={moon} alt="Chili B." className="hide-md" width={40} height={19} />} <p>{isAsh ? 'Ashwagandha is best in the daytime, our stress-adaptive drinks delivers a calm energy boost and helps balance your mood.' : 'Magnesium is ideal for evening relaxation, unwind with a blend that eases muscle tension and promotes better sleep.'}</p></div>
           <div className="flex flavor-option">
-            <div className={isAsh ? '' : 'active'} onClick={handleClick}><h2>Magnesium</h2></div>
             <div className={isAsh ? 'active' : ''} onClick={handleClick}><h2>Ashwagandha</h2></div>
+            <div className={isAsh ? '' : 'active'} onClick={handleClick}><h2>Magnesium</h2></div>
           </div>
           <div className={isAsh ? 'active ash flex ops' : 'ops'}>
             <div className="imgBox">
